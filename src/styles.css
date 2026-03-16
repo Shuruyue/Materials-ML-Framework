@@ -1,0 +1,886 @@
+/**
+ * styles.css
+ * ----------
+ * Stylesheet for the ML × Materials Science Research Atlas.
+ *
+ * Design tokens live in :root.  The layout is a single-column card stack that
+ * collapses gracefully through three responsive breakpoints (1480 / 1220 / 900 px).
+ * Print styles are included so the page can be exported to PDF.
+ */
+
+/* =========================================================================
+ * 1. Design Tokens
+ * ========================================================================= */
+
+:root {
+  --bg: #edf3f8;
+  --bg-deep: #d9e4ee;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-strong: rgba(255, 255, 255, 0.94);
+  --ink: #102033;
+  --muted: #4f6277;
+  --line: rgba(30, 55, 86, 0.16);
+  --line-strong: rgba(23, 47, 79, 0.28);
+
+  --blue: #0f4c81;
+  --teal: #0b6d6d;
+  --amber: #8d5e11;
+  --crimson: #7c3146;
+  --violet: #56439a;
+
+  --shadow: 0 22px 52px rgba(21, 37, 60, 0.11);
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --content-width: min(1760px, calc(100vw - 40px));
+
+  --font-body: "Aptos", "Segoe UI Variable Text", "Trebuchet MS", sans-serif;
+  --font-display: "Aptos Display", "Segoe UI Variable Display", "Franklin Gothic Medium", sans-serif;
+  --font-mono: "Cascadia Code", "Consolas", "Menlo", monospace;
+}
+
+/* =========================================================================
+ * 2. Reset and Base
+ * ========================================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  background:
+    radial-gradient(circle at 0% 0%, rgba(15, 76, 129, 0.12), transparent 24%),
+    radial-gradient(circle at 100% 0%, rgba(11, 109, 109, 0.10), transparent 22%),
+    radial-gradient(circle at 0% 100%, rgba(141, 94, 17, 0.08), transparent 18%),
+    linear-gradient(180deg, #f4f8fb 0%, #e8eff5 100%);
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* =========================================================================
+ * 3. Page Shell
+ * ========================================================================= */
+
+.page {
+  width: var(--content-width);
+  margin: 20px auto 56px;
+}
+
+/* --- Top navigation bar --- */
+
+.topbar {
+  position: sticky;
+  top: 14px;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 18px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.74);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  box-shadow: 0 12px 28px rgba(16, 32, 51, 0.08);
+}
+
+.topbar a {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.topbar a:hover {
+  background: rgba(15, 76, 129, 0.08);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* --- Language switch --- */
+
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 6px;
+  padding: 4px;
+  border-radius: 999px;
+  background: rgba(15, 76, 129, 0.06);
+  border: 1px solid rgba(15, 76, 129, 0.10);
+}
+
+.lang-button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 7px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: background 0.15s, color 0.15s;
+}
+
+.lang-button.is-active {
+  background: var(--blue);
+  color: #fff;
+}
+
+/* =========================================================================
+ * 4. Shared Card Surface
+ * ========================================================================= */
+
+.hero,
+.section,
+.footer-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.stat-card,
+.mini-panel,
+.architecture-card,
+.taxonomy-card,
+.band-card,
+.issue-card,
+.agenda-card,
+.source-card,
+.category-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface-strong);
+  box-shadow: 0 14px 34px rgba(18, 36, 58, 0.08);
+}
+
+/* =========================================================================
+ * 5. Hero
+ * ========================================================================= */
+
+.hero {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.35fr 0.9fr;
+  gap: 0;
+  margin-bottom: 22px;
+}
+
+.hero-main {
+  padding: 34px 34px 32px;
+  background:
+    linear-gradient(135deg, rgba(220, 234, 246, 0.94), rgba(255, 249, 239, 0.88)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0));
+}
+
+.hero-side {
+  padding: 28px 28px 26px;
+  border-left: 1px solid var(--line);
+  background:
+    linear-gradient(145deg, rgba(244, 248, 252, 0.95), rgba(236, 242, 247, 0.86));
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  margin-bottom: 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 76, 129, 0.16);
+  background: rgba(255, 255, 255, 0.62);
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* --- Typography --- */
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 4vw, 4.4rem);
+  line-height: 1.03;
+  max-width: 13ch;
+}
+
+.hero-copy {
+  margin: 14px 0 20px;
+  max-width: 72ch;
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+.utility-box {
+  padding: 16px 18px;
+  border: 1px solid rgba(15, 76, 129, 0.14);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.64);
+}
+
+.utility-title {
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.utility-formula {
+  font-family: var(--font-mono);
+  font-size: 0.94rem;
+  color: var(--ink);
+  white-space: pre-wrap;
+}
+
+/* --- Stats --- */
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.stat-card {
+  padding: 16px 16px 14px;
+}
+
+.stat-label {
+  margin-bottom: 6px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.stat-value {
+  font-size: 2.05rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.stat-note {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* --- Hero sidebar --- */
+
+.hero-side h2 {
+  font-size: 1.46rem;
+  margin-bottom: 12px;
+}
+
+.hero-side ul,
+.panel-list,
+.branch-gaps,
+.source-meta,
+.tree-list,
+.tree-list ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.hero-side li,
+.panel-list li,
+.branch-gaps li,
+.source-meta li {
+  margin: 7px 0;
+  color: var(--muted);
+}
+
+.mini-panels {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.mini-panel {
+  padding: 14px 16px;
+}
+
+.mini-panel h3 {
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+/* =========================================================================
+ * 6. Section Shell
+ * ========================================================================= */
+
+.section {
+  margin-top: 22px;
+  padding: 28px;
+}
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.section-head h2 {
+  font-size: clamp(2rem, 2.5vw, 2.8rem);
+}
+
+.section-kicker {
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.section-sub {
+  margin: 10px 0 0;
+  max-width: 80ch;
+  color: var(--muted);
+}
+
+/* =========================================================================
+ * 7. Grid Layouts
+ * ========================================================================= */
+
+.architecture-grid,
+.taxonomy-grid,
+.band-grid,
+.issue-grid,
+.agenda-grid,
+.category-grid,
+.sources-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.architecture-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.taxonomy-grid     { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.band-grid         { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.issue-grid        { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.agenda-grid       { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.category-grid     { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.sources-grid      { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+/* =========================================================================
+ * 8. Architecture Cards
+ * ========================================================================= */
+
+.architecture-card {
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.architecture-index {
+  margin-bottom: 12px;
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.architecture-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.architecture-card p {
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+
+.architecture-risk {
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(124, 49, 70, 0.10), rgba(255, 255, 255, 0.9));
+  color: #5d2534;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+/* =========================================================================
+ * 9. Taxonomy Cards
+ * ========================================================================= */
+
+.taxonomy-card {
+  padding: 20px;
+}
+
+.taxonomy-summary {
+  margin: 10px 0 16px;
+  color: var(--muted);
+}
+
+.tree-wrap {
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, rgba(244, 247, 250, 0.98), rgba(255, 255, 255, 0.98));
+  border: 1px solid rgba(15, 76, 129, 0.10);
+}
+
+.tree-list {
+  padding-left: 18px;
+}
+
+.tree-list li {
+  margin: 7px 0;
+}
+
+.tree-list ul {
+  margin-top: 7px;
+  border-left: 2px solid rgba(15, 76, 129, 0.12);
+}
+
+.tree-label {
+  font-weight: 700;
+}
+
+.tree-note {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.gap-box {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(11, 109, 109, 0.08), rgba(255, 255, 255, 0.9));
+  border: 1px solid rgba(11, 109, 109, 0.12);
+}
+
+.gap-title {
+  margin-bottom: 8px;
+  color: var(--teal);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* =========================================================================
+ * 10. Frontier Band Cards
+ * ========================================================================= */
+
+.band-card {
+  padding: 18px;
+}
+
+.band-card.core {
+  background: linear-gradient(180deg, rgba(227, 239, 249, 0.98), rgba(255, 255, 255, 0.96));
+}
+
+.band-card.adjacent {
+  background: linear-gradient(180deg, rgba(234, 246, 244, 0.98), rgba(255, 255, 255, 0.96));
+}
+
+.band-card.neglected {
+  background: linear-gradient(180deg, rgba(250, 243, 230, 0.98), rgba(255, 255, 255, 0.96));
+}
+
+.band-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.band-card > p {
+  color: var(--muted);
+}
+
+/* =========================================================================
+ * 11. Bottleneck / Issue Cards
+ * ========================================================================= */
+
+.issue-card {
+  padding: 18px;
+}
+
+.issue-chain {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.chain-block {
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  background: rgba(242, 247, 251, 0.96);
+  border: 1px solid rgba(15, 76, 129, 0.10);
+}
+
+.chain-label {
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* =========================================================================
+ * 12. Agenda Cards
+ * ========================================================================= */
+
+.agenda-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+.agenda-card {
+  padding: 18px;
+}
+
+.agenda-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.agenda-goal {
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+
+.agenda-card .chain-block {
+  background: rgba(255, 255, 255, 0.78);
+}
+
+/* =========================================================================
+ * 13. Evidence Section
+ * ========================================================================= */
+
+.evidence-layout {
+  display: grid;
+  gap: 16px;
+}
+
+.category-card {
+  padding: 16px;
+}
+
+.category-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+
+.category-count {
+  margin-top: 10px;
+  color: var(--blue);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+/* --- Filter shell --- */
+
+.filter-shell {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(245, 249, 252, 0.92), rgba(255, 255, 255, 0.98));
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+
+.filter-row input {
+  width: 100%;
+  padding: 14px 16px;
+  font: inherit;
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.96);
+  transition: border-color 0.15s;
+}
+
+.filter-row input:focus {
+  border-color: var(--blue);
+}
+
+.chip-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip-button {
+  border: 1px solid rgba(15, 76, 129, 0.18);
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--muted);
+  padding: 9px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.chip-button:hover {
+  background: rgba(15, 76, 129, 0.06);
+  color: var(--ink);
+}
+
+.chip-button.is-active {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+
+/* --- Source cards --- */
+
+.source-card {
+  padding: 16px;
+}
+
+.source-topline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.source-year,
+.source-type {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(15, 76, 129, 0.08);
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.source-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.source-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(15, 76, 129, 0.08);
+  font-size: 0.84rem;
+  font-weight: 700;
+  transition: background 0.15s;
+}
+
+.source-links a:hover {
+  background: rgba(15, 76, 129, 0.16);
+  text-decoration: none;
+}
+
+/* =========================================================================
+ * 14. Footer
+ * ========================================================================= */
+
+.footer-card {
+  margin-top: 22px;
+  padding: 22px 24px;
+}
+
+.footer-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* =========================================================================
+ * 15. Utility States
+ * ========================================================================= */
+
+.empty-state {
+  padding: 26px;
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--line-strong);
+  text-align: center;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.68);
+}
+
+/* screen-reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* =========================================================================
+ * 16. Responsive Breakpoints
+ * ========================================================================= */
+
+@media (max-width: 1480px) {
+  .architecture-grid,
+  .agenda-grid,
+  .category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1220px) {
+  .hero,
+  .taxonomy-grid,
+  .band-grid,
+  .issue-grid,
+  .sources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-side {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --content-width: calc(100vw - 18px);
+  }
+
+  .page {
+    margin: 10px auto 28px;
+  }
+
+  .topbar {
+    top: 8px;
+    border-radius: 24px;
+  }
+
+  .hero-main,
+  .hero-side,
+  .section {
+    padding: 18px;
+  }
+
+  .stat-grid,
+  .architecture-grid,
+  .agenda-grid,
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    max-width: none;
+  }
+}
+
+/* =========================================================================
+ * 17. Print Styles
+ * ========================================================================= */
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .topbar,
+  .lang-switch,
+  .filter-shell,
+  .chip-bar,
+  .source-links {
+    display: none !important;
+  }
+
+  .hero,
+  .section,
+  .footer-card,
+  .stat-card,
+  .architecture-card,
+  .taxonomy-card,
+  .band-card,
+  .issue-card,
+  .agenda-card,
+  .source-card,
+  .category-card {
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    break-inside: avoid;
+  }
+
+  .architecture-grid,
+  .taxonomy-grid,
+  .band-grid,
+  .issue-grid,
+  .agenda-grid,
+  .category-grid,
+  .sources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-side {
+    border-left: 0;
+    border-top: 1px solid #ccc;
+  }
+}

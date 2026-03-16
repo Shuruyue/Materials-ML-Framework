@@ -1,0 +1,25 @@
+# === Cache and generated data ===
+.cache/
+__pycache__/
+*.pyc
+
+# === OS and editor artifacts ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# === Python virtual environments ===
+.venv/
+venv/
+env/
+
+# === Node (not currently used, but future-proof) ===
+node_modules/
+
+# === Logs and temp files ===
+*.log
+*.tmp

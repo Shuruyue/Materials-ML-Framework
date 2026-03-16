@@ -177,7 +177,6 @@ input:focus-visible {
 }
 
 .stat-card,
-.mini-panel,
 .architecture-card,
 .taxonomy-card,
 .band-card,
@@ -319,7 +318,6 @@ h1 {
 
 .hero-side ul,
 .panel-list,
-.branch-gaps,
 .source-meta,
 .tree-list,
 .tree-list ul {
@@ -329,7 +327,6 @@ h1 {
 
 .hero-side li,
 .panel-list li,
-.branch-gaps li,
 .source-meta li {
   margin: 7px 0;
   color: var(--muted);
@@ -341,14 +338,6 @@ h1 {
   margin-top: 18px;
 }
 
-.mini-panel {
-  padding: 14px 16px;
-}
-
-.mini-panel h3 {
-  margin-bottom: 6px;
-  font-size: 1rem;
-}
 
 /* =========================================================================
  * 6. Section Shell
@@ -569,8 +558,6 @@ h1 {
 /* =========================================================================
  * 12. Agenda Cards
  * ========================================================================= */
-
-.agenda-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 .agenda-card {
   padding: 18px;

@@ -148,7 +148,9 @@ function applyStaticCopy() {
   document.getElementById("footer-copy").textContent = ui.labels.footer;
 
   document.querySelectorAll(".lang-button").forEach(function (button) {
-    button.classList.toggle("is-active", button.dataset.lang === appState.lang);
+    var isActive = button.dataset.lang === appState.lang;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
   });
 }
 
@@ -161,6 +163,7 @@ function renderArchitecture() {
   architectureSteps.forEach(function (step) {
     var card = document.createElement("article");
     card.className = "architecture-card";
+    card.setAttribute("role", "listitem");
 
     var indexDiv = document.createElement("div");
     indexDiv.className = "architecture-index";
@@ -221,6 +224,7 @@ function renderTaxonomy() {
   taxonomyBranches.forEach(function (branch) {
     var card = document.createElement("article");
     card.className = "taxonomy-card";
+    card.setAttribute("role", "listitem");
     var ui = getUi();
 
     var heading = document.createElement("h3");
@@ -259,6 +263,7 @@ function renderBands() {
   frontierBands.forEach(function (band) {
     var card = document.createElement("article");
     card.className = "band-card " + band.tone;
+    card.setAttribute("role", "listitem");
 
     var heading = document.createElement("h3");
     heading.textContent = tr(band.title);
@@ -284,6 +289,7 @@ function renderBottlenecks() {
   bottlenecks.forEach(function (issue) {
     var card = document.createElement("article");
     card.className = "issue-card";
+    card.setAttribute("role", "listitem");
 
     var heading = document.createElement("h3");
     heading.textContent = tr(issue.title);
@@ -326,6 +332,7 @@ function renderAgenda() {
   agenda.forEach(function (item) {
     var card = document.createElement("article");
     card.className = "agenda-card";
+    card.setAttribute("role", "listitem");
 
     var heading = document.createElement("h3");
     heading.textContent = tr(item.title);
@@ -420,6 +427,7 @@ function renderCategoryCards(data) {
     var localized = categoryCopy(category);
     var card = document.createElement("article");
     card.className = "category-card";
+    card.setAttribute("role", "listitem");
 
     var heading = document.createElement("h3");
     heading.textContent = localized.label;
@@ -509,6 +517,7 @@ function renderSources(data, activeCategory, query) {
   filtered.forEach(function (source) {
     var card = document.createElement("article");
     card.className = "source-card";
+    card.setAttribute("role", "listitem");
     var categories = formatCategories(source, categoryMap);
     card.innerHTML =
       '<div class="source-topline">' +

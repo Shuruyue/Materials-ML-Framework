@@ -33,8 +33,8 @@ var architectureSteps = [
       "Research-mode targets: information gain, falsifiability, and experimental efficiency",
     ],
     risk:
-      "If this layer is weak, the rest of the pipeline optimizes a proxy " +
-      "and produces elegant but strategically irrelevant results.",
+      "A weak objective layer causes the rest of the pipeline to optimize a proxy, " +
+      "producing results that do not address the actual deployment target.",
   },
   {
     index: "02",
@@ -65,23 +65,24 @@ var architectureSteps = [
       "Knowledge systems: papers, patents, ELN/LIMS, ontologies, negative results, and provenance metadata",
     ],
     risk:
-      "Without aligned evidence, even strong models only memorize whichever " +
-      "modality is easiest to access.",
+      "Without aligned evidence, models default to memorizing whichever " +
+      "modality is most accessible, limiting cross-modal generalization.",
   },
   {
     index: "04",
     title: "Representation Regimes",
     summary:
-      "Representations are not just encoding tricks. They determine which " +
-      "physics, constraints, and invariances can be learned at all.",
+      "Representations determine which physics, constraints, and invariances " +
+      "a learner can capture. The choice of encoding defines the ceiling of downstream tasks.",
     bullets: [
       "Descriptors and tabular featurizers for low-cost screening and small-data learning",
       "Atomic and crystal graphs for structure-aware property and force learning",
       "Microstructure fields, spectra encoders, time-series models, and multimodal latent spaces",
+      "Pre-trained and transfer-learned representations for cross-task and cross-domain reuse",
     ],
     risk:
-      "Representation mismatch is the hidden reason many benchmarks look " +
-      "strong while transfer to real tasks remains brittle.",
+      "Representation mismatch causes benchmarks to overstate performance " +
+      "while transfer to shifted tasks remains unreliable.",
   },
   {
     index: "05",
@@ -94,10 +95,11 @@ var architectureSteps = [
       "Forward prediction, ranking, and uncertainty-aware screening",
       "Generative and inverse design under hard feasibility constraints",
       "Scientific ML, operator learning, causal inference, multimodal foundation models, and agents",
+      "Multi-fidelity learning combining low-cost approximations with sparse high-fidelity labels",
     ],
     risk:
-      "Treating every problem as generic supervised learning erases the " +
-      "structure that actually differentiates subfields.",
+      "Treating every problem as generic supervised learning removes the " +
+      "structural distinctions that separate subfields.",
   },
   {
     index: "06",
@@ -112,8 +114,8 @@ var architectureSteps = [
       "Closed-loop laboratories, digital twins, and online adaptation",
     ],
     risk:
-      "Model-centric projects that never close the decision loop rarely " +
-      "survive translation into engineering practice.",
+      "Projects that remain model-centric without closing the decision loop " +
+      "face systematic barriers to translation into engineering practice.",
   },
   {
     index: "07",
@@ -144,8 +146,8 @@ var architectureSteps = [
       "Lifecycle deployment: sustainability, supply-chain resilience, recycling, qualification, and certification",
     ],
     risk:
-      "When deployment context is ignored, the work remains academically " +
-      "interesting but operationally fragile.",
+      "Ignoring deployment context produces work that may demonstrate " +
+      "academic novelty but lacks operational robustness.",
   },
 ];
 
@@ -257,6 +259,7 @@ var taxonomyBranches = [
           { label: "3.2.1 Crystal graphs and periodic graph neural networks" },
           { label: "3.2.2 Local atomic environments, symmetry-aware features, point clouds" },
           { label: "3.2.3 Defect, interface, and disordered-state representations" },
+          { label: "3.2.4 Physics-constrained data augmentation: symmetry operations, perturbation, and synthetic minority generation" },
         ],
       },
       {
@@ -270,9 +273,10 @@ var taxonomyBranches = [
       },
     ],
     gaps: [
-      "Interfaces, defects, and nonequilibrium states are still much harder to encode than ideal bulk structures.",
+      "Interfaces, defects, and nonequilibrium states remain substantially harder to encode than ideal bulk structures.",
       "Cross-scale alignment between atomic, microstructural, and process representations remains weak.",
-      "Missing modalities are the norm in materials pipelines, but most representation research still assumes clean full-data settings.",
+      "Missing modalities are the norm in materials pipelines, but most representation research assumes clean full-data settings.",
+      "Pre-trained representations lack standardized protocols for cross-domain fine-tuning and transferability assessment.",
     ],
   },
   {
@@ -300,18 +304,20 @@ var taxonomyBranches = [
         ],
       },
       {
-        label: "4.3 Deployment forms",
+        label: "4.3 Deployment forms and reuse strategies",
         children: [
           { label: "4.3.1 High-throughput screening and triage" },
           { label: "4.3.2 Property-surrogate insertion into optimization loops" },
           { label: "4.3.3 Virtual metrology and in-line prediction" },
+          { label: "4.3.4 Transfer learning and domain adaptation across tasks, chemistries, and fidelity levels" },
         ],
       },
     ],
     gaps: [
-      "Random splits still overestimate field performance relative to chemistry-, structure-, or process-shifted deployment.",
+      "Random splits overestimate field performance relative to chemistry-, structure-, or process-shifted deployment.",
       "Label noise and proxy-target shortcuts are severe in small experimental datasets.",
       "True causal variables are frequently hidden by incomplete processing-history metadata.",
+      "Multi-fidelity fusion strategies lack standardized benchmarks for quantifying cost-accuracy tradeoffs.",
     ],
   },
   {
@@ -525,6 +531,7 @@ var taxonomyBranches = [
           { label: "10.2.1 Uncertainty calibration and selective prediction" },
           { label: "10.2.2 OOD detection and covariate-shift response" },
           { label: "10.2.3 Causal reasoning and confounding diagnosis" },
+          { label: "10.2.4 Interpretability: attribution, symbolic regression, attention analysis, and concept-based explanation" },
         ],
       },
       {
@@ -537,9 +544,10 @@ var taxonomyBranches = [
       },
     ],
     gaps: [
-      "The field still overuses convenient benchmarks that do not approximate true prospective use.",
+      "The field overuses convenient benchmarks that do not approximate true prospective use.",
       "Calibration, not just point accuracy, becomes decisive once experiments become expensive or safety-critical.",
       "Generative AI increases the urgency of provenance and content-integrity safeguards for materials data.",
+      "Interpretability methods remain under-evaluated against domain-expert judgement and physical consistency.",
     ],
   },
   {
@@ -594,8 +602,8 @@ var frontierBands = [
     tone: "core",
     title: "Core High-Momentum Areas",
     summary:
-      "These branches dominate current attention because they promise fast " +
-      "benchmark gains or clear discovery narratives.",
+      "These branches concentrate the majority of current funding and citations, " +
+      "driven by rapid benchmark gains and well-defined discovery narratives.",
     items: [
       "Foundation models and multimodal materials representation learning",
       "Universal or near-universal interatomic potentials and scientific ML surrogates",
@@ -616,14 +624,15 @@ var frontierBands = [
       "Microscopy, diffraction, and spectroscopy agents for adaptive characterization",
       "Semiconductor and process-intelligence systems with deployment-grade constraints",
       "Additive-manufacturing digital twins and structure-process-property fusion",
+      "LLM-based autonomous research agents for hypothesis generation, experiment planning, and multi-tool orchestration",
     ],
   },
   {
     tone: "neglected",
     title: "Underrepresented Strategic Areas",
     summary:
-      "These areas receive less hype but are essential for a complete field " +
-      "architecture and for real economic impact.",
+      "These areas receive disproportionately low research coverage relative " +
+      "to their structural importance for a complete field architecture and economic impact.",
     items: [
       "Cement, glass, ceramics, refractories, and construction materials",
       "Corrosion, tribology, degradation, and reliability-under-service conditions",
@@ -663,7 +672,7 @@ var bottlenecks = [
   {
     title: "Feasibility Blindness in Generative Design",
     cause: "Candidate generators optimize objective conditioning faster than they learn synthesis, stability, or route accessibility.",
-    symptom: "Generated structures look novel but are chemically fragile or experimentally inaccessible.",
+    symptom: "Generated structures exhibit statistical novelty but are chemically fragile or experimentally inaccessible.",
     consequence: "Inverse design pipelines over-promise while discovery throughput stays low.",
     needed: "Hard feasibility filters, synthesis-route modeling, and prospective validation loops.",
   },
@@ -677,8 +686,8 @@ var bottlenecks = [
   {
     title: "Deployment Friction",
     cause: "Academic workflows optimize for novelty and accuracy, while operations require latency, maintainability, safety, and traceability.",
-    symptom: "Promising models stall before integration with real instruments, fabs, pilot lines, or qualification processes.",
-    consequence: "Value remains trapped at the demo stage.",
+    symptom: "Models stall before integration with real instruments, fabs, pilot lines, or qualification processes.",
+    consequence: "Demonstrated capability does not propagate beyond the prototype stage.",
     needed: "Human-in-the-loop design, fallback policies, digital-thread integration, and lifecycle support.",
   },
 ];

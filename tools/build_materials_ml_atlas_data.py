@@ -125,6 +125,47 @@ EXCLUDE_TITLE_PATTERNS = tuple(
         "neuroscience",
         "eggshell",
         "biomedical science & research",
+        "food waste",
+        "hydrochar",
+        "cardiovascular",
+        "soft tissue bio",
+        "drug delivery",
+        "wound healing",
+    ]
+)
+
+EXCLUDE_VENUE_EXACT = frozenset(
+    name.lower()
+    for name in [
+        "Materials",
+        "Polymers",
+        "Metals",
+        "Coatings",
+        "Sustainability",
+        "Diagnostics",
+        "Bioengineering",
+        "Condensed Matter",
+        "Fuel",
+    ]
+)
+
+EXCLUDE_VENUE_PATTERNS = tuple(
+    pattern.lower()
+    for pattern in [
+        "zenodo",
+        "sn applied sciences",
+        "chemical and biochemical engineering quarterly",
+        "cardiovascular engineering",
+        "sustainable chemistry and pharmacy",
+        "process safety and environmental protection",
+        "environmental research",
+        "biophysics reviews",
+        "international society for science and engineering",
+        "asian journal of civil engineering",
+        "case studies in construction materials",
+        "case studies in chemical and environmental engineering",
+        "journal of manufacturing and materials processing",
+        "international journal of green energy",
     ]
 )
 
@@ -169,7 +210,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "informatics", "artificial intelligence", "data-driven", "foundation model"],
         ],
         "priority_terms": ["materials informatics", "machine learning materials", "review", "foundation models"],
-        "min_cites": 8,
+        "min_cites": 15,
     },
     {
         "id": "data_infrastructure",
@@ -196,7 +237,7 @@ CATEGORIES: list[dict[str, Any]] = [
         ],
         "signal_terms": ["materials project", "matbench", "jarvis", "nomad", "open quantum materials database", "aflow", "polymer genome", "benchmark", "leaderboard", "database", "dataset", "fair"],
         "priority_terms": ["matbench", "materials project", "jarvis", "nomad", "benchmark", "leaderboard"],
-        "min_cites": 6,
+        "min_cites": 12,
     },
     {
         "id": "crystal_prediction",
@@ -221,7 +262,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["prediction", "property", "graph", "neural network", "machine learning"],
         ],
         "priority_terms": ["crystal graph", "band gap", "formation energy", "property prediction"],
-        "min_cites": 10,
+        "min_cites": 15,
     },
     {
         "id": "inverse_design",
@@ -246,7 +287,7 @@ CATEGORIES: list[dict[str, Any]] = [
         ],
         "signal_terms": ["inverse design", "generative", "diffusion", "machine learning", "data-driven", "reinforcement", "bayesian optimization"],
         "priority_terms": ["inverse design", "generative", "diffusion", "materials discovery"],
-        "min_cites": 6,
+        "min_cites": 12,
     },
     {
         "id": "scientific_ml",
@@ -272,7 +313,7 @@ CATEGORIES: list[dict[str, Any]] = [
         ],
         "signal_terms": ["machine learning", "machine-learned", "neural network", "deep potential", "gaussian process", "graph neural", "universal interatomic potential", "scientific machine learning"],
         "priority_terms": ["interatomic potential", "force field", "atomistic simulation", "universal"],
-        "min_cites": 8,
+        "min_cites": 15,
     },
     {
         "id": "trust_uq",
@@ -296,7 +337,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["material", "machine learning", "model", "prediction"],
         ],
         "priority_terms": ["uncertainty", "out-of-distribution", "trustworthy", "stability predictions"],
-        "min_cites": 5,
+        "min_cites": 10,
     },
     {
         "id": "autonomous_labs",
@@ -321,7 +362,7 @@ CATEGORIES: list[dict[str, Any]] = [
         ],
         "signal_terms": ["self-driving", "autonomous", "closed-loop", "active learning", "bayesian optimization", "robotic"],
         "priority_terms": ["self-driving", "autonomous", "closed-loop", "active learning"],
-        "min_cites": 5,
+        "min_cites": 10,
     },
     {
         "id": "microscopy_characterization",
@@ -346,7 +387,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "deep learning", "segmentation", "characterization", "analysis"],
         ],
         "priority_terms": ["electron microscopy", "microstructure", "segmentation", "nanocharacterization"],
-        "min_cites": 5,
+        "min_cites": 10,
     },
     {
         "id": "spectroscopy_diffraction",
@@ -371,7 +412,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "deep learning", "analysis", "materials"],
         ],
         "priority_terms": ["raman", "x-ray diffraction", "spectroscopy", "xas"],
-        "min_cites": 4,
+        "min_cites": 8,
     },
     {
         "id": "manufacturing_semiconductor",
@@ -396,7 +437,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "deep learning", "ai", "prediction", "metrology"],
         ],
         "priority_terms": ["virtual metrology", "semiconductor", "wafer", "fault detection", "yield"],
-        "min_cites": 4,
+        "min_cites": 8,
     },
     {
         "id": "additive_manufacturing",
@@ -420,7 +461,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "deep learning", "data-driven", "microstructure", "materials"],
         ],
         "priority_terms": ["additive manufacturing", "powder bed fusion", "laser powder bed fusion"],
-        "min_cites": 4,
+        "min_cites": 8,
     },
     {
         "id": "polymers",
@@ -444,7 +485,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["informatics", "machine learning", "design", "property", "materials"],
         ],
         "priority_terms": ["polymer informatics", "polymer genome", "machine learning polymers"],
-        "min_cites": 5,
+        "min_cites": 10,
     },
     {
         "id": "batteries",
@@ -469,7 +510,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "informatics", "discovery", "materials", "prediction"],
         ],
         "priority_terms": ["battery materials", "solid electrolyte", "battery informatics", "ionic conductivity"],
-        "min_cites": 5,
+        "min_cites": 10,
     },
     {
         "id": "catalysis",
@@ -493,7 +534,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "informatics", "design", "prediction"],
         ],
         "priority_terms": ["catalysis", "electrocatalyst", "heterogeneous catalysis", "surface science"],
-        "min_cites": 5,
+        "min_cites": 10,
     },
     {
         "id": "alloys_metallurgy",
@@ -517,7 +558,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "informatics", "prediction", "design", "materials"],
         ],
         "priority_terms": ["alloys", "high entropy", "metallurgy", "phase prediction"],
-        "min_cites": 5,
+        "min_cites": 10,
     },
     {
         "id": "microstructure_mechanics",
@@ -541,7 +582,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "deep learning", "prediction", "property"],
         ],
         "priority_terms": ["microstructure", "fracture", "fatigue", "defect prediction"],
-        "min_cites": 4,
+        "min_cites": 8,
     },
     {
         "id": "literature_kg",
@@ -565,7 +606,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["materials", "science", "synthesis", "property", "materials science"],
         ],
         "priority_terms": ["knowledge graph", "language models", "word embeddings", "literature"],
-        "min_cites": 4,
+        "min_cites": 8,
     },
     {
         "id": "quantum_2d",
@@ -589,7 +630,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "materials", "discovery", "prediction", "design"],
         ],
         "priority_terms": ["quantum materials", "2d materials", "topological", "photonic"],
-        "min_cites": 4,
+        "min_cites": 8,
     },
     {
         "id": "biomaterials",
@@ -613,12 +654,12 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "materials", "design", "prediction", "informatics"],
         ],
         "priority_terms": ["biomaterials", "bioinspired", "implant", "tissue engineering"],
-        "min_cites": 3,
+        "min_cites": 8,
     },
     {
         "id": "nonhot_materials",
         "label": "Less-Discussed Branches: Ceramics, Glass, Cement, Corrosion, Tribology, Nuclear",
-        "description": "Important but less-hyped materials branches that remain underrepresented in mainstream ML narratives.",
+        "description": "Important but underrepresented materials branches in mainstream ML narratives.",
         "target": 24,
         "title_pages": 2,
         "title_phrases": [
@@ -638,7 +679,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "data-driven", "materials", "prediction", "informatics"],
         ],
         "priority_terms": ["ceramics", "glass", "cement", "corrosion", "tribology", "nuclear materials"],
-        "min_cites": 2,
+        "min_cites": 6,
     },
     {
         "id": "sustainability",
@@ -662,7 +703,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["materials", "machine learning", "discovery", "informatics", "optimization"],
         ],
         "priority_terms": ["sustainable materials", "carbon", "critical materials", "recycling"],
-        "min_cites": 3,
+        "min_cites": 8,
     },
     {
         "id": "composites_metamaterials",
@@ -686,7 +727,7 @@ CATEGORIES: list[dict[str, Any]] = [
             ["machine learning", "inverse design", "materials", "prediction", "informatics"],
         ],
         "priority_terms": ["metamaterials", "inverse design", "composite", "architected"],
-        "min_cites": 3,
+        "min_cites": 8,
     },
 ]
 
@@ -948,8 +989,20 @@ def should_keep(work: dict[str, Any], category: dict[str, Any]) -> bool:
     is_review = work.get("type") == "review"
     has_quality_venue = any(pattern in venue_lower for pattern in QUALITY_SOURCE_PATTERNS)
 
-    # Reject papers older than 2 years with fewer than 3 citations
-    if publication_year <= 2023 and cited_by < 3:
+    # Block low-quality and off-topic venues
+    if venue_lower in EXCLUDE_VENUE_EXACT:
+        return False
+    if any(pattern in venue_lower for pattern in EXCLUDE_VENUE_PATTERNS):
+        return False
+
+    # Age-based citation minimums to ensure quality
+    if publication_year <= 2020 and cited_by < 30:
+        return False
+    if publication_year <= 2022 and cited_by < 10:
+        return False
+    if publication_year <= 2023 and cited_by < 5:
+        return False
+    if publication_year <= 2024 and cited_by < 2:
         return False
 
     return has_quality_venue or is_review or cited_by >= category["min_cites"]

@@ -554,7 +554,7 @@ var taxonomyBranches = [
     title: "11. Material-System Verticals",
     summary:
       "These verticals cut across the workflow backbone. Each one emphasizes " +
-      "different evidence types, constraints, and deployment end points.",
+      "different evidence types, constraints, and deployment endpoints.",
     tree: [
       {
         label: "11.1 Mainline verticals",
@@ -587,7 +587,7 @@ var taxonomyBranches = [
     ],
     gaps: [
       "Verticals differ more in evidence structure and deployment constraint than in preferred model family.",
-      "The most strategically important branches are not always the most benchmarked or fashionable.",
+      "The most strategically important branches are not always the most frequently benchmarked.",
       "Cross-vertical transfer remains difficult because process history and failure modes are domain-specific.",
     ],
   },

@@ -1,8 +1,8 @@
 {
   "summary": {
-    "generated_at": "2026-03-17T10:35:19.647771+00:00",
-    "total_unique_sources": 505,
-    "scholarly_source_count": 494,
+    "generated_at": "2026-03-17T11:15:52.911966+00:00",
+    "total_unique_sources": 500,
+    "scholarly_source_count": 489,
     "manual_source_count": 11,
     "category_count": 22,
     "year_range": {
@@ -40,14 +40,14 @@
         "W2338402873",
         "W2065832194",
         "W3110291329",
-        "W3203984794",
         "W4360949780",
         "W3000754666",
         "W2946680784",
         "W2969222270",
         "W2950904464",
         "W4308742497",
-        "W3042722891"
+        "W3042722891",
+        "W2968923792"
       ],
       "selected_count": 26
     },
@@ -98,11 +98,9 @@
         "W3042722891",
         "W3203701644",
         "W4403545097",
-        "W4407202904",
         "W2949095042",
         "W3125542198",
         "W3047312460",
-        "W4386325177",
         "W2897903198",
         "W4380202495",
         "W4283071924",
@@ -113,8 +111,10 @@
         "W3173368955",
         "W4213281362",
         "W4303649509",
-        "W4362603507",
-        "W4390781050"
+        "W4407202904",
+        "W4390781050",
+        "W4391994904",
+        "W4402384281"
       ],
       "selected_count": 28
     },
@@ -132,7 +132,6 @@
         "W3016719477",
         "W4405443366",
         "W4288048022",
-        "W4410242322",
         "W4412435395",
         "W4406472463",
         "W3201249640",
@@ -140,14 +139,15 @@
         "W4399258752",
         "W4401040414",
         "W4404984467",
-        "W4408658494",
+        "W4410242322",
         "W2997100726",
         "W3000404031",
         "W4405306572",
         "W4286809521",
         "W4403143425",
         "W4389385783",
-        "W4388213147"
+        "W4388213147",
+        "W3200172803"
       ],
       "selected_count": 24
     },
@@ -164,12 +164,12 @@
         "W4282041110",
         "W4312043350",
         "W4411792662",
-        "W4399038345",
         "W2725771565",
         "W4392553098",
         "W4283699517",
         "W4388706154",
         "W4365447662",
+        "W4399038345",
         "W2058370262",
         "W2335163884",
         "W3191686651",
@@ -178,14 +178,13 @@
         "W4404065425",
         "W4213193244",
         "W4395010575",
-        "W3171992535",
         "W4224293997",
         "W4226530413",
         "W4313545414",
         "W4367669062",
         "W3087674168"
       ],
-      "selected_count": 27
+      "selected_count": 26
     },
     {
       "id": "trust_uq",
@@ -241,9 +240,9 @@
         "W4406956870",
         "W4399208173",
         "W4412388002",
-        "W4410549543",
-        "W4405181194",
-        "W4225000412"
+        "W4225000412",
+        "W3037751387",
+        "W4285141178"
       ],
       "selected_count": 22
     },
@@ -298,18 +297,18 @@
         "W4323036107",
         "W4386416218",
         "W4400185648",
-        "W4283009777",
         "W3012727703",
         "W4402645831",
         "W4401339279",
         "W4404692270",
-        "W4413951899",
         "W2982407225",
         "W2982328938",
         "W4322765499",
         "W4281996842",
         "W4324316850",
-        "W4286586333"
+        "W4286586333",
+        "W3137208019",
+        "W4413951899"
       ],
       "selected_count": 22
     },
@@ -319,10 +318,9 @@
       "description": "Virtual metrology, yield learning, fault detection, and process monitoring in industrial settings.",
       "target": 22,
       "source_ids": [
-        "W4400405486",
         "W2159109921",
         "W4220992948",
-        "W4223475678",
+        "W4400405486",
         "W3200243999",
         "W2977448019",
         "W2068568515",
@@ -335,12 +333,13 @@
         "W2102445355",
         "W4392245039",
         "W2777729492",
-        "W2978187484",
-        "W2000264042",
-        "W2592721604",
         "W1966218581",
         "W2068574400",
-        "W2226450201"
+        "W2226450201",
+        "W2779937602",
+        "W2507812949",
+        "W3096084562",
+        "W3014303592"
       ],
       "selected_count": 22
     },
@@ -392,8 +391,6 @@
         "W3125983160",
         "W4308586705",
         "W4320915618",
-        "W4403249895",
-        "W4360976980",
         "W3024556032",
         "W3091459767",
         "W4285987580",
@@ -404,6 +401,8 @@
         "W4385417713",
         "W4386638789",
         "W4229377441",
+        "W4403249895",
+        "W4360976980",
         "W4414033360",
         "W4412811482",
         "W7117533069"
@@ -468,13 +467,13 @@
         "W4408444321",
         "W4414424145",
         "W2996448308",
-        "W3194540065",
         "W4402438846",
         "W4401395490",
         "W4411886920",
         "W4416283711",
         "W4407422778",
-        "W7130419125"
+        "W7130419125",
+        "W7105925185"
       ],
       "selected_count": 24
     },
@@ -495,7 +494,6 @@
         "W3212712077",
         "W4360956138",
         "W4390363237",
-        "W4387769614",
         "W2996580859",
         "W3131102893",
         "W4381059804",
@@ -505,9 +503,10 @@
         "W3186879433",
         "W4206071388",
         "W4393305908",
-        "W4407391544",
-        "W4411849937",
-        "W4401964612"
+        "W4387769614",
+        "W4296126761",
+        "W3089256683",
+        "W3175424420"
       ],
       "selected_count": 24
     },
@@ -537,10 +536,10 @@
         "W3214082765",
         "W3200704690",
         "W4321098131",
-        "W4311837762",
-        "W4205467164",
         "W4411033516",
-        "W4411968100"
+        "W4411968100",
+        "W4401812118",
+        "W4404883942"
       ],
       "selected_count": 24
     },
@@ -552,26 +551,26 @@
       "source_ids": [
         "W2953641512",
         "W4394707752",
-        "W4409208370",
         "W4399377978",
+        "W4409208370",
         "W7119499507",
         "W4417187428",
         "W4404620644",
         "W4400446804",
-        "W4409241400",
         "W4416445028",
         "W3201869313",
         "W3199148417",
         "W4390011017",
+        "W4409241400",
         "W4406736930",
         "W4403461173",
         "W4408514413",
         "W4385671288",
         "W4401845100",
         "W4400814499",
-        "W4410775580",
         "W4320713584",
-        "W4409204146"
+        "W4409204146",
+        "W4387779638"
       ],
       "selected_count": 22
     },
@@ -586,8 +585,6 @@
         "W4221067726",
         "W3150414869",
         "W3214300643",
-        "W4392585022",
-        "W4410468481",
         "W3143460494",
         "W3213689657",
         "W3182605665",
@@ -599,10 +596,12 @@
         "W4386613955",
         "W4388225839",
         "W4308357910",
-        "W4309313926",
+        "W4392585022",
+        "W4410468481",
         "W4405746988",
         "W4407901803",
-        "W4408296085"
+        "W4408296085",
+        "W4400914499"
       ],
       "selected_count": 22
     },
@@ -617,52 +616,52 @@
         "W4411922445",
         "W4414183398",
         "W4395961048",
-        "W4400226442",
         "W4407843289",
-        "W4306403500",
         "W3164199631",
         "W4318070558",
         "W4309627752",
         "W4380244113",
         "W4414943011",
-        "W4281617097",
         "W4400412282",
         "W4319657071",
         "W4401552793",
-        "W4376143041"
+        "W4409176523",
+        "W4396637238",
+        "W4401815901",
+        "W4390770775"
       ],
       "selected_count": 18
     },
     {
       "id": "nonhot_materials",
       "label": "Less-Discussed Branches: Ceramics, Glass, Cement, Corrosion, Tribology, Nuclear",
-      "description": "Important but less-hyped materials branches that remain underrepresented in mainstream ML narratives.",
+      "description": "Important but underrepresented materials branches in mainstream ML narratives.",
       "target": 24,
       "source_ids": [
+        "W4320888921",
         "W4206839204",
-        "W4407923110",
+        "W4391372524",
+        "W4391131940",
         "W4389210115",
         "W4381995714",
+        "W4290714018",
         "W4323810272",
-        "W4226423837",
+        "W4407923110",
         "W4416776716",
-        "W4391250988",
         "W4391771675",
         "W4391606951",
-        "W4399427050",
         "W4405233654",
         "W4400854721",
-        "W4401630076",
-        "W4404074724",
-        "W4403948269",
+        "W4403810139",
         "W4402033663",
-        "W4384341221",
         "W4404515954",
-        "W4413038850",
-        "W4410828097",
-        "W4402721704",
-        "W4410726856",
-        "W4409055615"
+        "W4306855887",
+        "W4384163823",
+        "W4381051486",
+        "W4284976256",
+        "W4365457020",
+        "W4281255484",
+        "W4387293705"
       ],
       "selected_count": 24
     },
@@ -677,19 +676,14 @@
         "W4401297138",
         "W4313578022",
         "W4392918088",
-        "W4414410126",
-        "W4386605943",
         "W3043270278",
-        "W4390977359",
         "W4392472023",
         "W4403541001",
-        "W4409147499",
         "W3000579906",
-        "W4366780552",
-        "W4399427050",
-        "W4403948269"
+        "W4300717226",
+        "W4385975764"
       ],
-      "selected_count": 16
+      "selected_count": 11
     },
     {
       "id": "composites_metamaterials",
@@ -714,11 +708,11 @@
         "W4400315317",
         "W4405070335",
         "W4409181242",
-        "W4414703052",
-        "W4402855874",
-        "W4411176422",
-        "W4411339259",
-        "W4220831434"
+        "W4220831434",
+        "W4207043826",
+        "W4213215364",
+        "W3203529693",
+        "W4211255523"
       ],
       "selected_count": 22
     }
@@ -1089,34 +1083,6 @@
       ]
     },
     {
-      "id": "W4407391544",
-      "title": "Machine learning-based phase prediction in high-entropy alloys: further optimization of feature engineering",
-      "year": 2025,
-      "venue": "Journal of Materials Science",
-      "type": "article",
-      "authors": "Guiyang Liu, Qingqing Wu, Yong Ma, et al.",
-      "doi_url": "https://doi.org/10.1007/s10853-025-10697-w",
-      "openalex_url": "https://openalex.org/W4407391544",
-      "cited_by_count": 9,
-      "category_ids": [
-        "alloys_metallurgy"
-      ]
-    },
-    {
-      "id": "W4408658494",
-      "title": "Inverse Design of High-Performance Thermoelectric Materials via a Generative Model Combined with Experimental Verification",
-      "year": 2025,
-      "venue": "ACS Applied Materials & Interfaces",
-      "type": "article",
-      "authors": "Yanwu Long, Chengquan Zhong, Xiaojing Ma, et al.",
-      "doi_url": "https://doi.org/10.1021/acsami.4c19494",
-      "openalex_url": "https://openalex.org/W4408658494",
-      "cited_by_count": 9,
-      "category_ids": [
-        "inverse_design"
-      ]
-    },
-    {
       "id": "W4407843289",
       "title": "Integrating Machine Learning into Additive Manufacturing of Metallic Biomaterials: A Comprehensive Review",
       "year": 2025,
@@ -1128,20 +1094,6 @@
       "cited_by_count": 9,
       "category_ids": [
         "biomaterials"
-      ]
-    },
-    {
-      "id": "W4410549543",
-      "title": "Democratizing self-driving labs: advances in low-cost 3D printing for laboratory automation",
-      "year": 2025,
-      "venue": "Digital Discovery",
-      "type": "article",
-      "authors": "Sayan Doloi, Mrinmay Das, Matthew Osvaldo, et al.",
-      "doi_url": "https://doi.org/10.1039/d4dd00411f",
-      "openalex_url": "https://openalex.org/W4410549543",
-      "cited_by_count": 9,
-      "category_ids": [
-        "autonomous_labs"
       ]
     },
     {
@@ -1173,20 +1125,6 @@
       ]
     },
     {
-      "id": "W4411849937",
-      "title": "Machine learning-driven design of high-entropy alloys: Phase prediction, performance optimization, and challenges",
-      "year": 2025,
-      "venue": "Journal of Alloys and Compounds",
-      "type": "article",
-      "authors": "Fangli Yu, Baozhen Yang, Aoming Liu, et al.",
-      "doi_url": "https://doi.org/10.1016/j.jallcom.2025.181898",
-      "openalex_url": "https://openalex.org/W4411849937",
-      "cited_by_count": 8,
-      "category_ids": [
-        "alloys_metallurgy"
-      ]
-    },
-    {
       "id": "W4410796321",
       "title": "Machine learning pipeline for Structure–Property modeling in Mg-alloys using microstructure and texture descriptors",
       "year": 2025,
@@ -1215,34 +1153,6 @@
       ]
     },
     {
-      "id": "W4414703052",
-      "title": "Machine Learning Approaches for Classification of Composite Materials",
-      "year": 2025,
-      "venue": "Modelling—International Open Access Journal of Modelling in Engineering Science",
-      "type": "article",
-      "authors": "Dmytro Tymoshchuk, Iryna Didych, Pavlo Maruschak, et al.",
-      "doi_url": "https://doi.org/10.3390/modelling6040118",
-      "openalex_url": "https://openalex.org/W4414703052",
-      "cited_by_count": 7,
-      "category_ids": [
-        "composites_metamaterials"
-      ]
-    },
-    {
-      "id": "W4409147499",
-      "title": "Leveraging machine learning for prediction and optimization of texture properties of sustainable activated carbon derived from waste materials",
-      "year": 2025,
-      "venue": "Scientific Reports",
-      "type": "article",
-      "authors": "Ahmed Farid Ibrahim, M.A. Hussein",
-      "doi_url": "https://doi.org/10.1038/s41598-025-95061-3",
-      "openalex_url": "https://openalex.org/W4409147499",
-      "cited_by_count": 7,
-      "category_ids": [
-        "sustainability"
-      ]
-    },
-    {
       "id": "W4408187148",
       "title": "Machine learning and sustainable geopolymer materials: A systematic review",
       "year": 2025,
@@ -1257,20 +1167,6 @@
       ]
     },
     {
-      "id": "W4410775580",
-      "title": "Bridging language models and computational materials science: A prompt‐driven framework for material property prediction",
-      "year": 2025,
-      "venue": "Materials Genome Engineering Advances",
-      "type": "article",
-      "authors": "Shuai Lv, Lyuzhang Peng, Wentiao Wu, et al.",
-      "doi_url": "https://doi.org/10.1002/mgea.70013",
-      "openalex_url": "https://openalex.org/W4410775580",
-      "cited_by_count": 6,
-      "category_ids": [
-        "literature_kg"
-      ]
-    },
-    {
       "id": "W4411792662",
       "title": "Universal machine learning interatomic potentials poised to supplant DFT in modeling general defects in metals and random alloys",
       "year": 2025,
@@ -1282,20 +1178,6 @@
       "cited_by_count": 5,
       "category_ids": [
         "scientific_ml"
-      ]
-    },
-    {
-      "id": "W4411176422",
-      "title": "Tuning structural dynamics through architected inner material designs: Numerical, experimental, and machine learning analysis",
-      "year": 2025,
-      "venue": "Materials & Design",
-      "type": "article",
-      "authors": "I. O. Hassan, Agyapal Singh, Dimitrios C. Rodopoulos, et al.",
-      "doi_url": "https://doi.org/10.1016/j.matdes.2025.114184",
-      "openalex_url": "https://openalex.org/W4411176422",
-      "cited_by_count": 5,
-      "category_ids": [
-        "composites_metamaterials"
       ]
     },
     {
@@ -1324,20 +1206,6 @@
       "cited_by_count": 5,
       "category_ids": [
         "microstructure_mechanics"
-      ]
-    },
-    {
-      "id": "W4411339259",
-      "title": "Multimaterial Metamaterial Inverse Design via Machine Learning for Tailorable and Reusable Energy Absorption",
-      "year": 2025,
-      "venue": "ACS Applied Materials & Interfaces",
-      "type": "article",
-      "authors": "Xuyang Li, Yong Qin, Lianfa Sun, et al.",
-      "doi_url": "https://doi.org/10.1021/acsami.5c05307",
-      "openalex_url": "https://openalex.org/W4411339259",
-      "cited_by_count": 4,
-      "category_ids": [
-        "composites_metamaterials"
       ]
     },
     {
@@ -1439,48 +1307,6 @@
       ]
     },
     {
-      "id": "W4413038850",
-      "title": "Machine Learning-Based Prediction of Atmospheric Corrosion Rates Using Environmental and Material Parameters",
-      "year": 2025,
-      "venue": "Coatings",
-      "type": "article",
-      "authors": "Saurabh Tiwari, K. Dash, Nokeun Park, et al.",
-      "doi_url": "https://doi.org/10.3390/coatings15080888",
-      "openalex_url": "https://openalex.org/W4413038850",
-      "cited_by_count": 3,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
-      "id": "W4414410126",
-      "title": "Machine Learning Applications in Sustainable Construction Materials: A Scientometrics Review of Global Trends, Themes, and Future Directions",
-      "year": 2025,
-      "venue": "Sustainability",
-      "type": "review",
-      "authors": "Ephrem Melaku Getachew, Woubishet Zewdu Taffese, Leonardo Espinosa-Leal, et al.",
-      "doi_url": "https://doi.org/10.3390/su17188453",
-      "openalex_url": "https://openalex.org/W4414410126",
-      "cited_by_count": 3,
-      "category_ids": [
-        "sustainability"
-      ]
-    },
-    {
-      "id": "W4410828097",
-      "title": "Investigation of Thermomechanical Properties of Hollow Glass Microballoon-Filled Composite Materials Developed by Additive Manufacturing with Machine Learning Validation",
-      "year": 2025,
-      "venue": "Polymers",
-      "type": "article",
-      "authors": "Md Sakhawat Hossain, Sazid Noor Rabi, Sakib Mohammad, et al.",
-      "doi_url": "https://doi.org/10.3390/polym17111495",
-      "openalex_url": "https://openalex.org/W4410828097",
-      "cited_by_count": 3,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
       "id": "W4406736930",
       "title": "Exploring the expertise of large language models in materials science and metallurgical engineering",
       "year": 2025,
@@ -1523,20 +1349,6 @@
       ]
     },
     {
-      "id": "W4410726856",
-      "title": "SMILES-driven machine learning for high-throughput investigation of anti-corrosion materials",
-      "year": 2025,
-      "venue": "Chemometrics and Intelligent Laboratory Systems",
-      "type": "article",
-      "authors": "Muhamad Akrom, Harun Al Azies, Wise Herowati, et al.",
-      "doi_url": "https://doi.org/10.1016/j.chemolab.2025.105441",
-      "openalex_url": "https://openalex.org/W4410726856",
-      "cited_by_count": 2,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
       "id": "W4411968100",
       "title": "Machine learning-driven prediction of microstructure-mechanical property relationships in Mg-Al alloys",
       "year": 2025,
@@ -1562,20 +1374,6 @@
       "cited_by_count": 2,
       "category_ids": [
         "batteries"
-      ]
-    },
-    {
-      "id": "W4409055615",
-      "title": "Machine learning approaches for identifying the influencing factors of input materials in cement and predicting heavy metal concentrations",
-      "year": 2025,
-      "venue": "Journal of Hazardous Materials Advances",
-      "type": "article",
-      "authors": "Dong Hoon Lee, Ryeo‐Ok Kim, Jin Hwi Kim, et al.",
-      "doi_url": "https://doi.org/10.1016/j.hazadv.2025.100699",
-      "openalex_url": "https://openalex.org/W4409055615",
-      "cited_by_count": 2,
-      "category_ids": [
-        "nonhot_materials"
       ]
     },
     {
@@ -1663,6 +1461,20 @@
       ]
     },
     {
+      "id": "W4409176523",
+      "title": "A new approach to bioceramics based on tissue reaction of tricalcium phosphate for biomedical and sport applications using machine learning modeling",
+      "year": 2025,
+      "venue": "Tissue and Cell",
+      "type": "article",
+      "authors": "Zhou Zilin, Yun Xu, Sh Baghei",
+      "doi_url": "https://doi.org/10.1016/j.tice.2025.102899",
+      "openalex_url": "https://openalex.org/W4409176523",
+      "cited_by_count": 1,
+      "category_ids": [
+        "biomaterials"
+      ]
+    },
+    {
       "id": "W4412811482",
       "title": "TransChem: A hybrid transformer and cheminformatics based framework for enhanced polymer informatics",
       "year": 2025,
@@ -1674,6 +1486,20 @@
       "cited_by_count": 0,
       "category_ids": [
         "polymers"
+      ]
+    },
+    {
+      "id": "W7105925185",
+      "title": "Toward general and reactive machine learning potentials for heterogeneous catalysis",
+      "year": 2025,
+      "venue": "Science China Chemistry",
+      "type": "article",
+      "authors": "Wei-Xue Li",
+      "doi_url": "https://doi.org/10.1007/s11426-025-3068-6",
+      "openalex_url": "https://openalex.org/W7105925185",
+      "cited_by_count": 0,
+      "category_ids": [
+        "catalysis"
       ]
     },
     {
@@ -2083,6 +1909,20 @@
       ]
     },
     {
+      "id": "W4391372524",
+      "title": "A critical review of machine learning algorithms in maritime, offshore, and oil &amp; gas corrosion research: A comprehensive analysis of ANN and RF models",
+      "year": 2024,
+      "venue": "Ocean Engineering",
+      "type": "review",
+      "authors": "Md Mahadi Hasan Imran, Shahrizan Jamaludin, Ahmad Faisal Mohamad Ayob",
+      "doi_url": "https://doi.org/10.1016/j.oceaneng.2024.116796",
+      "openalex_url": "https://openalex.org/W4391372524",
+      "cited_by_count": 54,
+      "category_ids": [
+        "nonhot_materials"
+      ]
+    },
+    {
       "id": "W4392888660",
       "title": "Microstructure dependent transverse strength criterion for UD-CFRP composites via computational micromechanics and machine learning",
       "year": 2024,
@@ -2141,6 +1981,20 @@
       ]
     },
     {
+      "id": "W4396637238",
+      "title": "Machine Learning in Biomaterials, Biomechanics/Mechanobiology, and Biofabrication: State of the Art and Perspective",
+      "year": 2024,
+      "venue": "Archives of Computational Methods in Engineering",
+      "type": "article",
+      "authors": "Chi Wu, Yanan Xu, Jianguang Fang, et al.",
+      "doi_url": "https://doi.org/10.1007/s11831-024-10100-y",
+      "openalex_url": "https://openalex.org/W4396637238",
+      "cited_by_count": 41,
+      "category_ids": [
+        "biomaterials"
+      ]
+    },
+    {
       "id": "W4404620644",
       "title": "Assessment of fine-tuned large language models for real-world chemistry and material science applications",
       "year": 2024,
@@ -2183,20 +2037,6 @@
       ]
     },
     {
-      "id": "W4391250988",
-      "title": "Applying machine learning random forest (RF) method in predicting the cement products with a co-processing of input materials: Optimizing the hyperparameters",
-      "year": 2024,
-      "venue": "Environmental Research",
-      "type": "article",
-      "authors": "Jin Hwi Kim, Dong Hoon Lee, Joseph Albert Mendoza, et al.",
-      "doi_url": "https://doi.org/10.1016/j.envres.2024.118300",
-      "openalex_url": "https://openalex.org/W4391250988",
-      "cited_by_count": 34,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
       "id": "W4401845100",
       "title": "Large-language models: The game-changers for materials science research",
       "year": 2024,
@@ -2222,20 +2062,6 @@
       "cited_by_count": 33,
       "category_ids": [
         "inverse_design"
-      ]
-    },
-    {
-      "id": "W4390977359",
-      "title": "Considering critical building materials for embodied carbon emissions in buildings: A machine learning-based prediction model and tool",
-      "year": 2024,
-      "venue": "Case Studies in Construction Materials",
-      "type": "article",
-      "authors": "Shu Su, Zhaoyin Zang, Jingfeng Yuan, et al.",
-      "doi_url": "https://doi.org/10.1016/j.cscm.2024.e02887",
-      "openalex_url": "https://openalex.org/W4390977359",
-      "cited_by_count": 31,
-      "category_ids": [
-        "sustainability"
       ]
     },
     {
@@ -2390,6 +2216,20 @@
       "cited_by_count": 23,
       "category_ids": [
         "alloys_metallurgy"
+      ]
+    },
+    {
+      "id": "W4391131940",
+      "title": "Enhancing pipeline integrity: a comprehensive review of deep learning-enabled finite element analysis for stress corrosion cracking prediction",
+      "year": 2024,
+      "venue": "Engineering Applications of Computational Fluid Mechanics",
+      "type": "review",
+      "authors": "Umair Sarwar, Ainul Akmar Mokhtar, Masdi Muhammad, et al.",
+      "doi_url": "https://doi.org/10.1080/19942060.2024.2302906",
+      "openalex_url": "https://openalex.org/W4391131940",
+      "cited_by_count": 23,
+      "category_ids": [
+        "nonhot_materials"
       ]
     },
     {
@@ -2632,21 +2472,6 @@
       ]
     },
     {
-      "id": "W4399427050",
-      "title": "Machine learning for predicting compressive strength of sustainable cement paste incorporating copper mine tailings as supplementary cementitious materials",
-      "year": 2024,
-      "venue": "Case Studies in Construction Materials",
-      "type": "article",
-      "authors": "Eka Oktavia Kurniati, Hang Zeng, Marat I. Latypov, et al.",
-      "doi_url": "https://doi.org/10.1016/j.cscm.2024.e03373",
-      "openalex_url": "https://openalex.org/W4399427050",
-      "cited_by_count": 17,
-      "category_ids": [
-        "nonhot_materials",
-        "sustainability"
-      ]
-    },
-    {
       "id": "W4394997091",
       "title": "Machine Learning on Microstructure–Property Relationship of Lithium-Ion Conducting Oxide Solid Electrolytes",
       "year": 2024,
@@ -2673,20 +2498,6 @@
       "cited_by_count": 17,
       "category_ids": [
         "inverse_design"
-      ]
-    },
-    {
-      "id": "W4400226442",
-      "title": "Review of Machine Learning Techniques in Soft Tissue Biomechanics and Biomaterials",
-      "year": 2024,
-      "venue": "Cardiovascular Engineering and Technology",
-      "type": "review",
-      "authors": "Samir Donmazov, Eda Nur Saruhan, Kerem Pekkan, et al.",
-      "doi_url": "https://doi.org/10.1007/s13239-024-00737-y",
-      "openalex_url": "https://openalex.org/W4400226442",
-      "cited_by_count": 16,
-      "category_ids": [
-        "biomaterials"
       ]
     },
     {
@@ -2802,17 +2613,17 @@
       ]
     },
     {
-      "id": "W4401630076",
-      "title": "A feature restoration for machine learning on anti-corrosion materials",
+      "id": "W4401815901",
+      "title": "Osteoinductive biomaterials: Machine learning for prediction and interpretation",
       "year": 2024,
-      "venue": "Case Studies in Chemical and Environmental Engineering",
+      "venue": "Acta Biomaterialia",
       "type": "article",
-      "authors": "Supriadi Rustad, Muhamad Akrom, T. Sutojo, et al.",
-      "doi_url": "https://doi.org/10.1016/j.cscee.2024.100902",
-      "openalex_url": "https://openalex.org/W4401630076",
-      "cited_by_count": 13,
+      "authors": "Sicong Lin, Yan Zhuang, Ke Chen, et al.",
+      "doi_url": "https://doi.org/10.1016/j.actbio.2024.08.017",
+      "openalex_url": "https://openalex.org/W4401815901",
+      "cited_by_count": 12,
       "category_ids": [
-        "nonhot_materials"
+        "biomaterials"
       ]
     },
     {
@@ -2886,14 +2697,14 @@
       ]
     },
     {
-      "id": "W4404074724",
-      "title": "Machine Learning Driven Fluidity and Rheological Properties Prediction of Fresh Cement-Based Materials",
+      "id": "W4403810139",
+      "title": "Functional Applications and Data-Driven Design of High-Entropy Ceramics",
       "year": 2024,
-      "venue": "Materials",
+      "venue": "High Entropy Alloys & Materials",
       "type": "article",
-      "authors": "Yi Liu, Zeyad M. A. Mohammed, Jialu Ma, et al.",
-      "doi_url": "https://doi.org/10.3390/ma17225400",
-      "openalex_url": "https://openalex.org/W4404074724",
+      "authors": "X. Zhu, Yong Zhang",
+      "doi_url": "https://doi.org/10.1007/s44210-024-00046-y",
+      "openalex_url": "https://openalex.org/W4403810139",
       "cited_by_count": 10,
       "category_ids": [
         "nonhot_materials"
@@ -2943,6 +2754,20 @@
       ]
     },
     {
+      "id": "W4390770775",
+      "title": "Machine Learning‐Based Prediction of Immunomodulatory Properties of Polymers: Toward a Faster and Easier Development of Anti‐Inflammatory Biomaterials",
+      "year": 2024,
+      "venue": "Advanced NanoBiomed Research",
+      "type": "article",
+      "authors": "Aghilas Akkache, Lisa Clavier, Oleh Mezhenskyi, et al.",
+      "doi_url": "https://doi.org/10.1002/anbr.202300085",
+      "openalex_url": "https://openalex.org/W4390770775",
+      "cited_by_count": 9,
+      "category_ids": [
+        "biomaterials"
+      ]
+    },
+    {
       "id": "W4400412282",
       "title": "Characterization and optimization of a biomaterial ink aided by machine learning-assisted parameter suggestion",
       "year": 2024,
@@ -2971,20 +2796,6 @@
       ]
     },
     {
-      "id": "W4405181194",
-      "title": "Self-driving AMADAP laboratory: Accelerating the discovery and optimization of emerging perovskite photovoltaics",
-      "year": 2024,
-      "venue": "MRS Bulletin",
-      "type": "article",
-      "authors": "Jiyun Zhang, Jianchang Wu, Oleksandr Stroyuk, et al.",
-      "doi_url": "https://doi.org/10.1557/s43577-024-00816-4",
-      "openalex_url": "https://openalex.org/W4405181194",
-      "cited_by_count": 8,
-      "category_ids": [
-        "autonomous_labs"
-      ]
-    },
-    {
       "id": "W4400446804",
       "title": "Large language models in electronic laboratory notebooks: Transforming materials science research workflows",
       "year": 2024,
@@ -2999,46 +2810,31 @@
       ]
     },
     {
-      "id": "W4401964612",
-      "title": "Prediction of phase and tensile properties of selective laser melting manufactured high entropy alloys by machine learning",
+      "id": "W4391994904",
+      "title": "Derivative-based pre-training of graph neural networks for materials property predictions",
       "year": 2024,
-      "venue": "Materials Today Communications",
+      "venue": "Digital Discovery",
       "type": "article",
-      "authors": "Xiaojun Tan, Donghui Chen, Haibing Xiao, et al.",
-      "doi_url": "https://doi.org/10.1016/j.mtcomm.2024.110209",
-      "openalex_url": "https://openalex.org/W4401964612",
-      "cited_by_count": 7,
+      "authors": "Shuyi Jia, Akaash R. Parthasarathy, Rui Feng, et al.",
+      "doi_url": "https://doi.org/10.1039/d3dd00214d",
+      "openalex_url": "https://openalex.org/W4391994904",
+      "cited_by_count": 8,
       "category_ids": [
-        "alloys_metallurgy"
+        "crystal_prediction"
       ]
     },
     {
-      "id": "W4402855874",
-      "title": "Machine learning-driven optimization of TPMS architected materials using simulated annealing",
+      "id": "W4402384281",
+      "title": "Neural network ensembles for band gap prediction",
       "year": 2024,
-      "venue": "Machine learning for computational science and engineering",
+      "venue": "Computational Materials Science",
       "type": "article",
-      "authors": "Akshansh Mishra",
-      "doi_url": "https://doi.org/10.1007/s44379-024-00001-z",
-      "openalex_url": "https://openalex.org/W4402855874",
+      "authors": "Taichi Masuda, Katsuaki Tanabe",
+      "doi_url": "https://doi.org/10.1016/j.commatsci.2024.113327",
+      "openalex_url": "https://openalex.org/W4402384281",
       "cited_by_count": 7,
       "category_ids": [
-        "composites_metamaterials"
-      ]
-    },
-    {
-      "id": "W4403948269",
-      "title": "Machine learning techniques to evaluate the impact of calcium oxide (CaO) and silicon dioxide (SiO2) in supplementary cement materials on the compressive strength of sustainable pervious concrete",
-      "year": 2024,
-      "venue": "Sustainable Chemistry and Pharmacy",
-      "type": "article",
-      "authors": "Navaratnarajah Sathiparan, Pratheeba Jeyananthan, Daniel Niruban Subramaniam",
-      "doi_url": "https://doi.org/10.1016/j.scp.2024.101818",
-      "openalex_url": "https://openalex.org/W4403948269",
-      "cited_by_count": 7,
-      "category_ids": [
-        "nonhot_materials",
-        "sustainability"
+        "crystal_prediction"
       ]
     },
     {
@@ -3154,20 +2950,6 @@
       ]
     },
     {
-      "id": "W4402721704",
-      "title": "Machine Learning Approach to Investigate High Temperature Corrosion of Critical Infrastructure Materials",
-      "year": 2024,
-      "venue": "High Temperature Corrosion of Materials",
-      "type": "article",
-      "authors": "Ramkumar Muthukrishnan, Yakubu Balogun, Vinooth Rajendran, et al.",
-      "doi_url": "https://doi.org/10.1007/s11085-024-10312-4",
-      "openalex_url": "https://openalex.org/W4402721704",
-      "cited_by_count": 3,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
       "id": "W4403461173",
       "title": "High throughput screening of new piezoelectric materials using graph machine learning and knowledge graph approach",
       "year": 2024,
@@ -3179,6 +2961,49 @@
       "cited_by_count": 3,
       "category_ids": [
         "literature_kg"
+      ]
+    },
+    {
+      "id": "W4400914499",
+      "title": "Formation energy prediction of neutral single-atom impurities in 2D materials using tree-based machine learning",
+      "year": 2024,
+      "venue": "Machine Learning Science and Technology",
+      "type": "article",
+      "authors": "Aniwat Kesorn, Rutchapon Hunkao, Cheewawut Na Talang, et al.",
+      "doi_url": "https://doi.org/10.1088/2632-2153/ad66ae",
+      "openalex_url": "https://openalex.org/W4400914499",
+      "cited_by_count": 2,
+      "category_ids": [
+        "crystal_prediction",
+        "quantum_2d"
+      ]
+    },
+    {
+      "id": "W4401812118",
+      "title": "Data-driven integration of synthetic representative volume elements and machine learning for improved microstructure-property linkage and material performance in ceramics",
+      "year": 2024,
+      "venue": "Computational Materials Today",
+      "type": "article",
+      "authors": "Mohammad Rezasefat, James D. Hogan",
+      "doi_url": "https://doi.org/10.1016/j.commt.2024.100011",
+      "openalex_url": "https://openalex.org/W4401812118",
+      "cited_by_count": 2,
+      "category_ids": [
+        "microstructure_mechanics"
+      ]
+    },
+    {
+      "id": "W4404883942",
+      "title": "An integrated design of novel RAFM steels with targeted microstructures and tensile properties using machine learning and CALPHAD",
+      "year": 2024,
+      "venue": "Journal of Materials Informatics",
+      "type": "article",
+      "authors": "Xiaochen Li, Mingjie Zheng, Hao Pan, et al.",
+      "doi_url": "https://doi.org/10.20517/jmi.2024.44",
+      "openalex_url": "https://openalex.org/W4404883942",
+      "cited_by_count": 2,
+      "category_ids": [
+        "microstructure_mechanics"
       ]
     },
     {
@@ -3380,20 +3205,6 @@
       ]
     },
     {
-      "id": "W4386325177",
-      "title": "Application of Machine Learning in Material Synthesis and Property Prediction",
-      "year": 2023,
-      "venue": "Materials",
-      "type": "review",
-      "authors": "Guannan Huang, Yani Guo, Ye Chen, et al.",
-      "doi_url": "https://doi.org/10.3390/ma16175977",
-      "openalex_url": "https://openalex.org/W4386325177",
-      "cited_by_count": 124,
-      "category_ids": [
-        "crystal_prediction"
-      ]
-    },
-    {
       "id": "W4385740652",
       "title": "Applied machine learning as a driver for polymeric biomaterials design",
       "year": 2023,
@@ -3565,20 +3376,6 @@
       ]
     },
     {
-      "id": "W4366780552",
-      "title": "Machine learning-based characterization of hydrochar from biomass: Implications for sustainable energy and material production",
-      "year": 2023,
-      "venue": "Fuel",
-      "type": "article",
-      "authors": "Alireza Shafizadeh, Hossein Shahbeik, Shahin Rafiee, et al.",
-      "doi_url": "https://doi.org/10.1016/j.fuel.2023.128467",
-      "openalex_url": "https://openalex.org/W4366780552",
-      "cited_by_count": 83,
-      "category_ids": [
-        "sustainability"
-      ]
-    },
-    {
       "id": "W4320915618",
       "title": "Polymer Informatics at Scale with Multitask Graph Neural Networks",
       "year": 2023,
@@ -3734,6 +3531,20 @@
       ]
     },
     {
+      "id": "W4384163823",
+      "title": "Prediction of bending strength of glass fiber reinforced methacrylate-based pipeline UV-CIPP rehabilitation materials based on machine learning",
+      "year": 2023,
+      "venue": "Tunnelling and Underground Space Technology",
+      "type": "article",
+      "authors": "Yangyang Xia, Chao Zhang, Cuixia Wang, et al.",
+      "doi_url": "https://doi.org/10.1016/j.tust.2023.105319",
+      "openalex_url": "https://openalex.org/W4384163823",
+      "cited_by_count": 62,
+      "category_ids": [
+        "nonhot_materials"
+      ]
+    },
+    {
       "id": "W4313578022",
       "title": "Machine learning for sustainable development and applications of biomass and biomass-derived carbonaceous materials in water and agricultural systems: A review",
       "year": 2023,
@@ -3818,6 +3629,20 @@
       ]
     },
     {
+      "id": "W4381051486",
+      "title": "Coupled experimental assessment and machine learning prediction of mechanical integrity of MICP and cement paste as underground plugging materials",
+      "year": 2023,
+      "venue": "Biogeotechnics",
+      "type": "article",
+      "authors": "Oladoyin Kolawole, Rayan H. Assaad, Matthew P. Adams, et al.",
+      "doi_url": "https://doi.org/10.1016/j.bgtech.2023.100020",
+      "openalex_url": "https://openalex.org/W4381051486",
+      "cited_by_count": 39,
+      "category_ids": [
+        "nonhot_materials"
+      ]
+    },
+    {
       "id": "W4386993344",
       "title": "Defect driven physics-informed neural network framework for fatigue life prediction of additively manufactured materials",
       "year": 2023,
@@ -3829,6 +3654,20 @@
       "cited_by_count": 38,
       "category_ids": [
         "microstructure_mechanics"
+      ]
+    },
+    {
+      "id": "W4320888921",
+      "title": "Rational design of high-entropy ceramics based on machine learning – A critical review",
+      "year": 2023,
+      "venue": "Current Opinion in Solid State and Materials Science",
+      "type": "review",
+      "authors": "Jun Zhang, Xuepeng Xiang, Biao Xu, et al.",
+      "doi_url": "https://doi.org/10.1016/j.cossms.2023.101057",
+      "openalex_url": "https://openalex.org/W4320888921",
+      "cited_by_count": 37,
+      "category_ids": [
+        "nonhot_materials"
       ]
     },
     {
@@ -3942,6 +3781,34 @@
       "cited_by_count": 29,
       "category_ids": [
         "biomaterials"
+      ]
+    },
+    {
+      "id": "W4387779638",
+      "title": "MatChat: A large language model and application service platform for materials science",
+      "year": 2023,
+      "venue": "Chinese Physics B",
+      "type": "article",
+      "authors": "Zi-Yi 子逸 Chen 陈, Fan-Kai 帆恺 Xie 谢, Meng Wan, et al.",
+      "doi_url": "https://doi.org/10.1088/1674-1056/ad04cb",
+      "openalex_url": "https://openalex.org/W4387779638",
+      "cited_by_count": 28,
+      "category_ids": [
+        "literature_kg"
+      ]
+    },
+    {
+      "id": "W4365457020",
+      "title": "Application of machine learning in material corrosion research",
+      "year": 2023,
+      "venue": "Corrosion Reviews",
+      "type": "article",
+      "authors": "Shuaijie Ma, Yanxia Du, Shasha Wang, et al.",
+      "doi_url": "https://doi.org/10.1515/corrrev-2022-0089",
+      "openalex_url": "https://openalex.org/W4365457020",
+      "cited_by_count": 27,
+      "category_ids": [
+        "nonhot_materials"
       ]
     },
     {
@@ -4156,17 +4023,17 @@
       ]
     },
     {
-      "id": "W4362603507",
-      "title": "Clarifying trust of materials property predictions using neural networks with distribution-specific uncertainty quantification",
+      "id": "W4387293705",
+      "title": "XFEM and machine learning combined approach for failure prediction of microcapsules in cement-based self-healing materials",
       "year": 2023,
-      "venue": "Machine Learning Science and Technology",
+      "venue": "Construction and Building Materials",
       "type": "article",
-      "authors": "Cameron Gruich, Varun Madhavan, Zhaoran Wang, et al.",
-      "doi_url": "https://doi.org/10.1088/2632-2153/accace",
-      "openalex_url": "https://openalex.org/W4362603507",
-      "cited_by_count": 14,
+      "authors": "Qiao Song, Xianfeng Wang, Fang Yuan, et al.",
+      "doi_url": "https://doi.org/10.1016/j.conbuildmat.2023.133515",
+      "openalex_url": "https://openalex.org/W4387293705",
+      "cited_by_count": 11,
       "category_ids": [
-        "crystal_prediction"
+        "nonhot_materials"
       ]
     },
     {
@@ -4212,6 +4079,20 @@
       ]
     },
     {
+      "id": "W4385975764",
+      "title": "Design and selection of suitable sustainable phase change materials for latent heat thermal energy storage system using data-driven machine learning models",
+      "year": 2023,
+      "venue": "Journal of Thermal Analysis and Calorimetry",
+      "type": "article",
+      "authors": "Muthya Goud Vempally, Ruben Sudhakar Dhanarathinam",
+      "doi_url": "https://doi.org/10.1007/s10973-023-12426-4",
+      "openalex_url": "https://openalex.org/W4385975764",
+      "cited_by_count": 10,
+      "category_ids": [
+        "sustainability"
+      ]
+    },
+    {
       "id": "W4387769614",
       "title": "Machine learning based phase prediction and powder metallurgy assisted experimental validation of medium entropy compositionally complex alloys",
       "year": 2023,
@@ -4240,34 +4121,6 @@
       ]
     },
     {
-      "id": "W4386605943",
-      "title": "Machine learning for sustainable reutilization of waste materials as energy sources – a comprehensive review",
-      "year": 2023,
-      "venue": "International Journal of Green Energy",
-      "type": "review",
-      "authors": "Wei Peng, Omid Karimi Sadaghiani",
-      "doi_url": "https://doi.org/10.1080/15435075.2023.2255647",
-      "openalex_url": "https://openalex.org/W4386605943",
-      "cited_by_count": 8,
-      "category_ids": [
-        "sustainability"
-      ]
-    },
-    {
-      "id": "W4384341221",
-      "title": "Computational Materials Design for Ceramic Nuclear Waste Forms Using Machine Learning, First-Principles Calculations, and Kinetics Rate Theory",
-      "year": 2023,
-      "venue": "Materials",
-      "type": "review",
-      "authors": "Jianwei Wang, Dipta B. Ghosh, Zelong Zhang",
-      "doi_url": "https://doi.org/10.3390/ma16144985",
-      "openalex_url": "https://openalex.org/W4384341221",
-      "cited_by_count": 7,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
       "id": "W4360976980",
       "title": "Informatics colourizes polymers",
       "year": 2023,
@@ -4279,20 +4132,6 @@
       "cited_by_count": 5,
       "category_ids": [
         "polymers"
-      ]
-    },
-    {
-      "id": "W4376143041",
-      "title": "Assessing Biomaterial‐Induced Stem Cell Lineage Fate by Machine Learning‐Based Artificial Intelligence (Adv. Mater. 19/2023)",
-      "year": 2023,
-      "venue": "Advanced Materials",
-      "type": "article",
-      "authors": "Yingying Zhou, Xianfeng Ping, Yusi Guo, et al.",
-      "doi_url": "https://doi.org/10.1002/adma.202370137",
-      "openalex_url": "https://openalex.org/W4376143041",
-      "cited_by_count": 4,
-      "category_ids": [
-        "biomaterials"
       ]
     },
     {
@@ -4363,6 +4202,20 @@
       "cited_by_count": 353,
       "category_ids": [
         "autonomous_labs"
+      ]
+    },
+    {
+      "id": "W4296126761",
+      "title": "Machine learning for high-entropy alloys: Progress, challenges and opportunities",
+      "year": 2022,
+      "venue": "Progress in Materials Science",
+      "type": "article",
+      "authors": "Xianglin Liu, Jiaxin Zhang, Zongrui Pei",
+      "doi_url": "https://doi.org/10.1016/j.pmatsci.2022.101018",
+      "openalex_url": "https://openalex.org/W4296126761",
+      "cited_by_count": 315,
+      "category_ids": [
+        "alloys_metallurgy"
       ]
     },
     {
@@ -4703,20 +4556,6 @@
       ]
     },
     {
-      "id": "W4306403500",
-      "title": "The Role of Machine Learning and Design of Experiments in the Advancement of Biomaterial and Tissue Engineering Research",
-      "year": 2022,
-      "venue": "Bioengineering",
-      "type": "review",
-      "authors": "Ghayadah Al-Kharusi, Nicholas Dunne, Suzanne Little, et al.",
-      "doi_url": "https://doi.org/10.3390/bioengineering9100561",
-      "openalex_url": "https://openalex.org/W4306403500",
-      "cited_by_count": 92,
-      "category_ids": [
-        "biomaterials"
-      ]
-    },
-    {
       "id": "W4296120901",
       "title": "A review of machine learning techniques for process and performance optimization in laser beam powder bed fusion additive manufacturing",
       "year": 2022,
@@ -4873,17 +4712,17 @@
       ]
     },
     {
-      "id": "W4283009777",
-      "title": "Machine Learning of Raman Spectroscopy Data for Classifying Cancers: A Review of the Recent Literature",
+      "id": "W4306855887",
+      "title": "The study of effect of carbon nanotubes on the compressive strength of cement-based materials based on machine learning",
       "year": 2022,
-      "venue": "Diagnostics",
-      "type": "review",
-      "authors": "Nathan Blake, Riana Gaifulina, Lewis D. Griffin, et al.",
-      "doi_url": "https://doi.org/10.3390/diagnostics12061491",
-      "openalex_url": "https://openalex.org/W4283009777",
-      "cited_by_count": 61,
+      "venue": "Construction and Building Materials",
+      "type": "article",
+      "authors": "Yue Li, Hongwen Li, Caiyun Jin, et al.",
+      "doi_url": "https://doi.org/10.1016/j.conbuildmat.2022.129435",
+      "openalex_url": "https://openalex.org/W4306855887",
+      "cited_by_count": 66,
       "category_ids": [
-        "spectroscopy_diffraction"
+        "nonhot_materials"
       ]
     },
     {
@@ -4943,6 +4782,20 @@
       ]
     },
     {
+      "id": "W4207043826",
+      "title": "Machine learning-based inverse design of auxetic metamaterial with zero Poisson's ratio",
+      "year": 2022,
+      "venue": "Materials Today Communications",
+      "type": "article",
+      "authors": "Yafeng Chang, Hui Wang, Qinxi Dong",
+      "doi_url": "https://doi.org/10.1016/j.mtcomm.2022.103186",
+      "openalex_url": "https://openalex.org/W4207043826",
+      "cited_by_count": 57,
+      "category_ids": [
+        "composites_metamaterials"
+      ]
+    },
+    {
       "id": "W4296940900",
       "title": "A micromechanics-based machine learning model for evaluating the microstructure-dependent rolling contact fatigue performance of a martensitic steel",
       "year": 2022,
@@ -4954,6 +4807,34 @@
       "cited_by_count": 56,
       "category_ids": [
         "microscopy_characterization"
+      ]
+    },
+    {
+      "id": "W4213215364",
+      "title": "The intersection of damage evaluation of fiber-reinforced composite materials with machine learning: A review",
+      "year": 2022,
+      "venue": "Journal of Composite Materials",
+      "type": "review",
+      "authors": "Christopher Nelon, Oliver Myers, Asha Hall",
+      "doi_url": "https://doi.org/10.1177/00219983211037048",
+      "openalex_url": "https://openalex.org/W4213215364",
+      "cited_by_count": 51,
+      "category_ids": [
+        "composites_metamaterials"
+      ]
+    },
+    {
+      "id": "W4285141178",
+      "title": "A self-driving laboratory designed to accelerate the discovery of adhesive materials",
+      "year": 2022,
+      "venue": "Digital Discovery",
+      "type": "article",
+      "authors": "Michael B. Rooney, Benjamin P. MacLeod, Ryan Oldford, et al.",
+      "doi_url": "https://doi.org/10.1039/d2dd00029f",
+      "openalex_url": "https://openalex.org/W4285141178",
+      "cited_by_count": 46,
+      "category_ids": [
+        "autonomous_labs"
       ]
     },
     {
@@ -5098,6 +4979,20 @@
       ]
     },
     {
+      "id": "W4290714018",
+      "title": "Prospect of Using Machine Learning-Based Microwave Nondestructive Testing Technique for Corrosion Under Insulation: A Review",
+      "year": 2022,
+      "venue": "IEEE Access",
+      "type": "review",
+      "authors": "Tan Shin Yee, Nawaf H. M. M. Shrifan, Ahmed Jamal Abdullah Al-Gburi, et al.",
+      "doi_url": "https://doi.org/10.1109/access.2022.3197291",
+      "openalex_url": "https://openalex.org/W4290714018",
+      "cited_by_count": 30,
+      "category_ids": [
+        "nonhot_materials"
+      ]
+    },
+    {
       "id": "W4285139900",
       "title": "Machine learning reveals factors that control ion mobility in anti-perovskite solid electrolytes",
       "year": 2022,
@@ -5140,6 +5035,49 @@
       ]
     },
     {
+      "id": "W4281255484",
+      "title": "Machine learning based thermal imaging damage detection in glass-epoxy composite materials",
+      "year": 2022,
+      "venue": "Composite Structures",
+      "type": "article",
+      "authors": "Ali Sarhadi, Rodrigo Q. Albuquerque, Martin Demleitner, et al.",
+      "doi_url": "https://doi.org/10.1016/j.compstruct.2022.115786",
+      "openalex_url": "https://openalex.org/W4281255484",
+      "cited_by_count": 25,
+      "category_ids": [
+        "nonhot_materials",
+        "composites_metamaterials"
+      ]
+    },
+    {
+      "id": "W4211255523",
+      "title": "Using supervised machine learning methods to predict microfiber alignment and electrical conductivity of polymer matrix composite materials fabricated with ultrasound directed self-assembly and stereolithography",
+      "year": 2022,
+      "venue": "Computational Materials Science",
+      "type": "article",
+      "authors": "Karl Niendorf, Bart Raeymaekers",
+      "doi_url": "https://doi.org/10.1016/j.commatsci.2022.111233",
+      "openalex_url": "https://openalex.org/W4211255523",
+      "cited_by_count": 24,
+      "category_ids": [
+        "composites_metamaterials"
+      ]
+    },
+    {
+      "id": "W4300717226",
+      "title": "Sustainable Thermoelectric Materials Predicted by Machine Learning",
+      "year": 2022,
+      "venue": "Advanced Theory and Simulations",
+      "type": "article",
+      "authors": "Dmitry Chernyavsky, Jeroen van den Brink, Gyu Hyeon Park, et al.",
+      "doi_url": "https://doi.org/10.1002/adts.202200351",
+      "openalex_url": "https://openalex.org/W4300717226",
+      "cited_by_count": 20,
+      "category_ids": [
+        "sustainability"
+      ]
+    },
+    {
       "id": "W4286586333",
       "title": "Composition-transferable machine learning potential for LiCl-KCl molten salts validated by high-energy x-ray diffraction",
       "year": 2022,
@@ -5179,20 +5117,6 @@
       "cited_by_count": 19,
       "category_ids": [
         "batteries"
-      ]
-    },
-    {
-      "id": "W4281617097",
-      "title": "Machine learning approaches for biomolecular, biophysical, and biomaterials research",
-      "year": 2022,
-      "venue": "Biophysics Reviews",
-      "type": "review",
-      "authors": "Carolin A. Rickert, Oliver Lieleg",
-      "doi_url": "https://doi.org/10.1063/5.0082179",
-      "openalex_url": "https://openalex.org/W4281617097",
-      "cited_by_count": 18,
-      "category_ids": [
-        "biomaterials"
       ]
     },
     {
@@ -5263,62 +5187,6 @@
       "cited_by_count": 10,
       "category_ids": [
         "microscopy_characterization",
-        "quantum_2d"
-      ]
-    },
-    {
-      "id": "W4223475678",
-      "title": "Machine Learning Approaches for Fault Detection in Semiconductor Manufacturing Process: A Critical Review of Recent Applications and Future Perspectives",
-      "year": 2022,
-      "venue": "Chemical and Biochemical Engineering Quarterly",
-      "type": "review",
-      "authors": "V. Arpitha, Ajaya Kumar Pani",
-      "doi_url": "https://doi.org/10.15255/cabeq.2021.1973",
-      "openalex_url": "https://openalex.org/W4223475678",
-      "cited_by_count": 9,
-      "category_ids": [
-        "manufacturing_semiconductor"
-      ]
-    },
-    {
-      "id": "W4311837762",
-      "title": "Linking properties to microstructure in liquid metal embedded elastomers via machine learning",
-      "year": 2022,
-      "venue": "Computational Materials Science",
-      "type": "article",
-      "authors": "Abhijith Thoopul Anantharanga, Mohammad Saber Hashemi, Azadeh Sheidaei",
-      "doi_url": "https://doi.org/10.1016/j.commatsci.2022.111983",
-      "openalex_url": "https://openalex.org/W4311837762",
-      "cited_by_count": 8,
-      "category_ids": [
-        "microstructure_mechanics"
-      ]
-    },
-    {
-      "id": "W4205467164",
-      "title": "Search strategy for rare microstructure to optimize material properties of filled rubber using machine learning based simulation",
-      "year": 2022,
-      "venue": "Computational Materials Science",
-      "type": "article",
-      "authors": "Takashi Kojima, Takashi Washio, Satoshi Hara, et al.",
-      "doi_url": "https://doi.org/10.1016/j.commatsci.2022.111207",
-      "openalex_url": "https://openalex.org/W4205467164",
-      "cited_by_count": 7,
-      "category_ids": [
-        "microstructure_mechanics"
-      ]
-    },
-    {
-      "id": "W4309313926",
-      "title": "Substrate Effect on the Thermal Expansion of 2D Materials: An Investigation by Machine Learning Interatomic Potentials",
-      "year": 2022,
-      "venue": "Condensed Matter",
-      "type": "article",
-      "authors": "Ali Rajabpour, Bohayra Mortazavi",
-      "doi_url": "https://doi.org/10.3390/condmat7040067",
-      "openalex_url": "https://openalex.org/W4309313926",
-      "cited_by_count": 5,
-      "category_ids": [
         "quantum_2d"
       ]
     },
@@ -5466,20 +5334,6 @@
       ]
     },
     {
-      "id": "W3194540065",
-      "title": "Machine learning on sustainable energy: A review and outlook on renewable energy systems, catalysis, smart grid and energy storage",
-      "year": 2021,
-      "venue": "Process Safety and Environmental Protection",
-      "type": "review",
-      "authors": "Daniel Rangel-Martínez, K.D.P. Nigam, Luis Ricardez‐Sandoval",
-      "doi_url": "https://doi.org/10.1016/j.cherd.2021.08.013",
-      "openalex_url": "https://openalex.org/W3194540065",
-      "cited_by_count": 236,
-      "category_ids": [
-        "catalysis"
-      ]
-    },
-    {
       "id": "W3157707063",
       "title": "Modeling solid solution strengthening in high entropy alloys using machine learning",
       "year": 2021,
@@ -5489,6 +5343,20 @@
       "doi_url": "https://doi.org/10.1016/j.actamat.2021.116917",
       "openalex_url": "https://openalex.org/W3157707063",
       "cited_by_count": 229,
+      "category_ids": [
+        "alloys_metallurgy"
+      ]
+    },
+    {
+      "id": "W3175424420",
+      "title": "Machine learning assisted composition effective design for precipitation strengthened copper alloys",
+      "year": 2021,
+      "venue": "Acta Materialia",
+      "type": "article",
+      "authors": "Hongtao Zhang, Huadong Fu, Shuaicheng Zhu, et al.",
+      "doi_url": "https://doi.org/10.1016/j.actamat.2021.117118",
+      "openalex_url": "https://openalex.org/W3175424420",
+      "cited_by_count": 216,
       "category_ids": [
         "alloys_metallurgy"
       ]
@@ -5888,20 +5756,6 @@
       ]
     },
     {
-      "id": "W3171992535",
-      "title": "Prediction on Mechanical Properties of Non-Equiatomic High-Entropy Alloy by Atomistic Simulation and Machine Learning",
-      "year": 2021,
-      "venue": "Metals",
-      "type": "article",
-      "authors": "Liang Zhang, Kun Qian, Björn W. Schuller, et al.",
-      "doi_url": "https://doi.org/10.3390/met11060922",
-      "openalex_url": "https://openalex.org/W3171992535",
-      "cited_by_count": 58,
-      "category_ids": [
-        "scientific_ml"
-      ]
-    },
-    {
       "id": "W3205154088",
       "title": "Quantitative analysis of mechanical properties associated with aging treatment and microstructure in Mg-Al-Zn alloys through machine learning",
       "year": 2021,
@@ -5987,20 +5841,6 @@
       ]
     },
     {
-      "id": "W3203984794",
-      "title": "Materials Informatics for Mechanical Deformation: A Review of Applications and Challenges",
-      "year": 2021,
-      "venue": "Materials",
-      "type": "review",
-      "authors": "Karol Frydrych, Kamran Karimi, Michal Pecelerowicz, et al.",
-      "doi_url": "https://doi.org/10.3390/ma14195764",
-      "openalex_url": "https://openalex.org/W3203984794",
-      "cited_by_count": 48,
-      "category_ids": [
-        "field_overviews"
-      ]
-    },
-    {
       "id": "W3157521427",
       "title": "Role of V on the coercivity of SmFe12-based melt-spun ribbons revealed by machine learning and microstructure characterizations",
       "year": 2021,
@@ -6071,6 +5911,34 @@
       ]
     },
     {
+      "id": "W3200172803",
+      "title": "Generative models for inverse design of inorganic solid materials",
+      "year": 2021,
+      "venue": "Journal of Materials Informatics",
+      "type": "article",
+      "authors": "Litao Chen, Wentao Zhang, Zhiwei Nie, et al.",
+      "doi_url": "https://doi.org/10.20517/jmi.2021.07",
+      "openalex_url": "https://openalex.org/W3200172803",
+      "cited_by_count": 29,
+      "category_ids": [
+        "inverse_design"
+      ]
+    },
+    {
+      "id": "W3203529693",
+      "title": "A highly interpretable materials informatics approach for predicting microstructure-property relationship in fabric composites",
+      "year": 2021,
+      "venue": "Composites Science and Technology",
+      "type": "article",
+      "authors": "Tina Olfatbakhsh, Abbas S. Milani",
+      "doi_url": "https://doi.org/10.1016/j.compscitech.2021.109080",
+      "openalex_url": "https://openalex.org/W3203529693",
+      "cited_by_count": 27,
+      "category_ids": [
+        "composites_metamaterials"
+      ]
+    },
+    {
       "id": "W3214082765",
       "title": "Machine learning reinforced microstructure-sensitive prediction of material property closures",
       "year": 2021,
@@ -6100,6 +5968,20 @@
       ]
     },
     {
+      "id": "W3137208019",
+      "title": "Laser-induced breakdown spectroscopy for the classification of wood materials using machine learning methods combined with feature selection",
+      "year": 2021,
+      "venue": "Plasma Science and Technology",
+      "type": "article",
+      "authors": "Xutai Cui, Qianqian Wang, Kai Wei, et al.",
+      "doi_url": "https://doi.org/10.1088/2058-6272/abf1ac",
+      "openalex_url": "https://openalex.org/W3137208019",
+      "cited_by_count": 18,
+      "category_ids": [
+        "spectroscopy_diffraction"
+      ]
+    },
+    {
       "id": "W3200704690",
       "title": "Microstructure–property relation and machine learning prediction of hole expansion capacity of high-strength steels",
       "year": 2021,
@@ -6111,20 +5993,6 @@
       "cited_by_count": 14,
       "category_ids": [
         "microstructure_mechanics"
-      ]
-    },
-    {
-      "id": "W4226423837",
-      "title": "Material removal predictions in the robot glass polishing process using machine learning",
-      "year": 2021,
-      "venue": "SN Applied Sciences",
-      "type": "article",
-      "authors": "Max Schneckenburger, Sven Höfler, Luis Carlos Flórez García, et al.",
-      "doi_url": "https://doi.org/10.1007/s42452-021-04916-7",
-      "openalex_url": "https://openalex.org/W4226423837",
-      "cited_by_count": 7,
-      "category_ids": [
-        "nonhot_materials"
       ]
     },
     {
@@ -6324,6 +6192,20 @@
       ]
     },
     {
+      "id": "W3089256683",
+      "title": "Dramatically Enhanced Combination of Ultimate Tensile Strength and Electric Conductivity of Alloys via Machine Learning Screening",
+      "year": 2020,
+      "venue": "Acta Materialia",
+      "type": "article",
+      "authors": "Hongtao Zhang, Huadong Fu, Xingqun He, et al.",
+      "doi_url": "https://doi.org/10.1016/j.actamat.2020.09.068",
+      "openalex_url": "https://openalex.org/W3089256683",
+      "cited_by_count": 265,
+      "category_ids": [
+        "alloys_metallurgy"
+      ]
+    },
+    {
       "id": "W3024556032",
       "title": "Designing exceptional gas-separation polymer membranes using machine learning",
       "year": 2020,
@@ -6476,6 +6358,20 @@
       "cited_by_count": 214,
       "category_ids": [
         "additive_manufacturing"
+      ]
+    },
+    {
+      "id": "W3037751387",
+      "title": "A review of 3D printing processes and materials for soft robotics",
+      "year": 2020,
+      "venue": "Rapid Prototyping Journal",
+      "type": "review",
+      "authors": "Yee Ling Yap, Swee Leong Sing, Wai Yee Yeong",
+      "doi_url": "https://doi.org/10.1108/rpj-11-2019-0302",
+      "openalex_url": "https://openalex.org/W3037751387",
+      "cited_by_count": 211,
+      "category_ids": [
+        "autonomous_labs"
       ]
     },
     {
@@ -6748,6 +6644,20 @@
       ]
     },
     {
+      "id": "W3096084562",
+      "title": "A Novel Framework for Semiconductor Manufacturing Final Test Yield Classification Using Machine Learning Techniques",
+      "year": 2020,
+      "venue": "IEEE Access",
+      "type": "article",
+      "authors": "Dan Jiang, Weihua Lin, Nagarajan Raghavan",
+      "doi_url": "https://doi.org/10.1109/access.2020.3034680",
+      "openalex_url": "https://openalex.org/W3096084562",
+      "cited_by_count": 62,
+      "category_ids": [
+        "manufacturing_semiconductor"
+      ]
+    },
+    {
       "id": "W3000579906",
       "title": "Assessment of critical materials and cell design factors for high performance lithium-sulfur batteries using machine learning",
       "year": 2020,
@@ -6791,6 +6701,20 @@
       ]
     },
     {
+      "id": "W3014303592",
+      "title": "Virtual metrology of semiconductor PVD process based on combination of tree-based ensemble model",
+      "year": 2020,
+      "venue": "ISA Transactions",
+      "type": "article",
+      "authors": "Ching‐Hsien Chen, Weidong Zhao, Timothy Pang, et al.",
+      "doi_url": "https://doi.org/10.1016/j.isatra.2020.03.031",
+      "openalex_url": "https://openalex.org/W3014303592",
+      "cited_by_count": 48,
+      "category_ids": [
+        "manufacturing_semiconductor"
+      ]
+    },
+    {
       "id": "W3032520221",
       "title": "Benchmark AFLOW Data Sets for Machine Learning",
       "year": 2020,
@@ -6830,6 +6754,20 @@
       "cited_by_count": 33,
       "category_ids": [
         "microscopy_characterization"
+      ]
+    },
+    {
+      "id": "W2968923792",
+      "title": "Recent advances and applications of machine learning in solid-state materials science",
+      "year": 2019,
+      "venue": "npj Computational Materials",
+      "type": "article",
+      "authors": "Jonathan Schmidt, Mário R. G. Marques, Silvana Botti, et al.",
+      "doi_url": "https://doi.org/10.1038/s41524-019-0221-0",
+      "openalex_url": "https://openalex.org/W2968923792",
+      "cited_by_count": 2279,
+      "category_ids": [
+        "field_overviews"
       ]
     },
     {
@@ -7083,20 +7021,6 @@
       "doi_url": "https://doi.org/10.1109/tsm.2019.2945482",
       "openalex_url": "https://openalex.org/W2977448019",
       "cited_by_count": 33,
-      "category_ids": [
-        "manufacturing_semiconductor"
-      ]
-    },
-    {
-      "id": "W2978187484",
-      "title": "A Structure Data-Driven Framework for Virtual Metrology Modeling",
-      "year": 2019,
-      "venue": "IEEE Transactions on Automation Science and Engineering",
-      "type": "article",
-      "authors": "Wei-Ting Yang, Jakey Blue, Agnès Roussy, et al.",
-      "doi_url": "https://doi.org/10.1109/tase.2019.2941047",
-      "openalex_url": "https://openalex.org/W2978187484",
-      "cited_by_count": 29,
       "category_ids": [
         "manufacturing_semiconductor"
       ]
@@ -7398,6 +7322,20 @@
       ]
     },
     {
+      "id": "W2779937602",
+      "title": "Adaptive virtual metrology for semiconductor chemical mechanical planarization process using GMDH-type polynomial neural networks",
+      "year": 2017,
+      "venue": "Journal of Process Control",
+      "type": "article",
+      "authors": "Xiaodong Jia, Di Yuan, Jianshe Feng, et al.",
+      "doi_url": "https://doi.org/10.1016/j.jprocont.2017.12.004",
+      "openalex_url": "https://openalex.org/W2779937602",
+      "cited_by_count": 87,
+      "category_ids": [
+        "manufacturing_semiconductor"
+      ]
+    },
+    {
       "id": "W2777729492",
       "title": "On Effectiveness of Transfer Learning Approach for Neural Network-Based Virtual Metrology Modeling",
       "year": 2017,
@@ -7407,20 +7345,6 @@
       "doi_url": "https://doi.org/10.1109/tsm.2017.2787550",
       "openalex_url": "https://openalex.org/W2777729492",
       "cited_by_count": 36,
-      "category_ids": [
-        "manufacturing_semiconductor"
-      ]
-    },
-    {
-      "id": "W2592721604",
-      "title": "A Review Of Related Work On Machine Learning In Semiconductor Manufacturing And Assembly Lines",
-      "year": 2017,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "type": "review",
-      "authors": "Darko Stanisavljevic, Michael Spitzer",
-      "doi_url": "https://doi.org/10.5281/zenodo.495135",
-      "openalex_url": "https://openalex.org/W2592721604",
-      "cited_by_count": 21,
       "category_ids": [
         "manufacturing_semiconductor"
       ]
@@ -7524,6 +7448,20 @@
       ]
     },
     {
+      "id": "W2507812949",
+      "title": "Multi-step virtual metrology for semiconductor manufacturing: A multilevel and regularization methods-based approach",
+      "year": 2014,
+      "venue": "Computers & Operations Research",
+      "type": "article",
+      "authors": "Gian Antonio Susto, Simone Pampuri, Andrea Schirru, et al.",
+      "doi_url": "https://doi.org/10.1016/j.cor.2014.05.008",
+      "openalex_url": "https://openalex.org/W2507812949",
+      "cited_by_count": 75,
+      "category_ids": [
+        "manufacturing_semiconductor"
+      ]
+    },
+    {
       "id": "W1992985800",
       "title": "Commentary: The Materials Project: A materials genome approach to accelerating materials innovation",
       "year": 2013,
@@ -7563,20 +7501,6 @@
       "cited_by_count": 478,
       "category_ids": [
         "field_overviews"
-      ]
-    },
-    {
-      "id": "W2000264042",
-      "title": "Virtual Metrology Modeling for CVD Film Thickness",
-      "year": 2012,
-      "venue": "International Journal of Control Science and Engineering",
-      "type": "article",
-      "authors": "Jérôme Besnard, Dietmar Gleispach, Hervé Gris, et al.",
-      "doi_url": "https://doi.org/10.5923/j.control.20120203.02",
-      "openalex_url": "https://openalex.org/W2000264042",
-      "cited_by_count": 28,
-      "category_ids": [
-        "manufacturing_semiconductor"
       ]
     },
     {

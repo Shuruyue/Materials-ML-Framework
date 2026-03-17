@@ -200,8 +200,7 @@ function buildTree(nodes) {
 
     var label = document.createElement("div");
     label.className = "tree-label";
-    // Replace ASCII arrows with the proper Unicode arrow character
-    label.textContent = tr(node.label).replace(/->/g, "\u2192");
+    label.textContent = tr(node.label);
 
     li.appendChild(label);
 
@@ -437,7 +436,7 @@ function renderCategoryCards(data) {
 
     var countDiv = document.createElement("div");
     countDiv.className = "category-count";
-    countDiv.textContent = category.selected_count + " " + (appState.lang === "zh" ? "\u7B46\u9AD8\u4EAE\u4F86\u6E90" : "highlighted sources");
+    countDiv.textContent = category.selected_count + " " + getUi().labels.highlightedSources;
 
     card.appendChild(heading);
     card.appendChild(desc);

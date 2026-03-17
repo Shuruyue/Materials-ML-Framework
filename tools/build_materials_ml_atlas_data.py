@@ -99,17 +99,21 @@ EXCLUDE_TITLE_PATTERNS = tuple(
     pattern.lower()
     for pattern in [
         "corrigendum",
+        "correction:",
         "erratum",
         "editorial",
         "preface",
         "special issue",
+        "supplemental material",
         "diabetes",
         "cognition",
         "cognitive",
         "psychology",
+        "psychopathology",
         "urine",
         "phylogenetic",
         "breast cancer",
+        "lung tumor",
         "logistic regression",
         "speech recognition",
         "drug formulation",
@@ -119,6 +123,8 @@ EXCLUDE_TITLE_PATTERNS = tuple(
         "covid",
         "mouse",
         "neuroscience",
+        "eggshell",
+        "biomedical science & research",
     ]
 )
 
@@ -938,8 +944,14 @@ def should_keep(work: dict[str, Any], category: dict[str, Any]) -> bool:
 
     venue_lower = venue.lower()
     cited_by = int(work.get("cited_by_count") or 0)
+    publication_year = int(work.get("publication_year") or 0)
     is_review = work.get("type") == "review"
     has_quality_venue = any(pattern in venue_lower for pattern in QUALITY_SOURCE_PATTERNS)
+
+    # Reject papers older than 2 years with fewer than 3 citations
+    if publication_year <= 2023 and cited_by < 3:
+        return False
+
     return has_quality_venue or is_review or cited_by >= category["min_cites"]
 
 

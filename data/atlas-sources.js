@@ -1,8 +1,8 @@
 window.MATERIALS_ML_ATLAS_DATA = {
   "summary": {
-    "generated_at": "2026-03-16T11:48:31.589663+00:00",
-    "total_unique_sources": 506,
-    "scholarly_source_count": 495,
+    "generated_at": "2026-03-17T10:35:19.647771+00:00",
+    "total_unique_sources": 505,
+    "scholarly_source_count": 494,
     "manual_source_count": 11,
     "category_count": 22,
     "year_range": {
@@ -61,7 +61,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
         "W3023937119",
         "W1992985800",
         "W3125542198",
-        "W3094270089",
         "W2999359202",
         "W2278970271",
         "W4387614830",
@@ -80,7 +79,7 @@ window.MATERIALS_ML_ATLAS_DATA = {
         "W4386605578",
         "W2788656411"
       ],
-      "selected_count": 22
+      "selected_count": 21
     },
     {
       "id": "crystal_prediction",
@@ -196,14 +195,12 @@ window.MATERIALS_ML_ATLAS_DATA = {
       "source_ids": [
         "W4411543224",
         "W4406284830",
-        "W4413910104",
         "W2775811982",
         "W4362700002",
         "W4391213547",
         "W4412487119",
         "W7116702534",
         "W4415472744",
-        "W4399389697",
         "W3195348523",
         "W4396745882",
         "W2944854053",
@@ -213,7 +210,9 @@ window.MATERIALS_ML_ATLAS_DATA = {
         "W4284976256",
         "W4308296609",
         "W2954219020",
-        "W3188144980"
+        "W3188144980",
+        "W4282981294",
+        "W4308516360"
       ],
       "selected_count": 20
     },
@@ -617,7 +616,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
         "W4385740652",
         "W4411922445",
         "W4414183398",
-        "W3217137720",
         "W4395961048",
         "W4400226442",
         "W4407843289",
@@ -629,8 +627,9 @@ window.MATERIALS_ML_ATLAS_DATA = {
         "W4414943011",
         "W4281617097",
         "W4400412282",
-        "W3135362313",
-        "W4319657071"
+        "W4319657071",
+        "W4401552793",
+        "W4376143041"
       ],
       "selected_count": 18
     },
@@ -647,9 +646,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
         "W4323810272",
         "W4226423837",
         "W4416776716",
-        "W4408413801",
-        "W3153452387",
-        "W4383163643",
         "W4391250988",
         "W4391771675",
         "W4391606951",
@@ -663,7 +659,10 @@ window.MATERIALS_ML_ATLAS_DATA = {
         "W4384341221",
         "W4404515954",
         "W4413038850",
-        "W4410828097"
+        "W4410828097",
+        "W4402721704",
+        "W4410726856",
+        "W4409055615"
       ],
       "selected_count": 24
     },
@@ -1524,6 +1523,20 @@ window.MATERIALS_ML_ATLAS_DATA = {
       ]
     },
     {
+      "id": "W4410726856",
+      "title": "SMILES-driven machine learning for high-throughput investigation of anti-corrosion materials",
+      "year": 2025,
+      "venue": "Chemometrics and Intelligent Laboratory Systems",
+      "type": "article",
+      "authors": "Muhamad Akrom, Harun Al Azies, Wise Herowati, et al.",
+      "doi_url": "https://doi.org/10.1016/j.chemolab.2025.105441",
+      "openalex_url": "https://openalex.org/W4410726856",
+      "cited_by_count": 2,
+      "category_ids": [
+        "nonhot_materials"
+      ]
+    },
+    {
       "id": "W4411968100",
       "title": "Machine learning-driven prediction of microstructure-mechanical property relationships in Mg-Al alloys",
       "year": 2025,
@@ -1549,6 +1562,20 @@ window.MATERIALS_ML_ATLAS_DATA = {
       "cited_by_count": 2,
       "category_ids": [
         "batteries"
+      ]
+    },
+    {
+      "id": "W4409055615",
+      "title": "Machine learning approaches for identifying the influencing factors of input materials in cement and predicting heavy metal concentrations",
+      "year": 2025,
+      "venue": "Journal of Hazardous Materials Advances",
+      "type": "article",
+      "authors": "Dong Hoon Lee, Ryeo‐Ok Kim, Jin Hwi Kim, et al.",
+      "doi_url": "https://doi.org/10.1016/j.hazadv.2025.100699",
+      "openalex_url": "https://openalex.org/W4409055615",
+      "cited_by_count": 2,
+      "category_ids": [
+        "nonhot_materials"
       ]
     },
     {
@@ -1636,20 +1663,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
       ]
     },
     {
-      "id": "W4413910104",
-      "title": "Author Correction: A framework to evaluate machine learning crystal stability predictions",
-      "year": 2025,
-      "venue": "Nature Machine Intelligence",
-      "type": "article",
-      "authors": "Janosh Riebesell, Rhys E. A. Goodall, Philipp Benner, et al.",
-      "doi_url": "https://doi.org/10.1038/s42256-025-01117-4",
-      "openalex_url": "https://openalex.org/W4413910104",
-      "cited_by_count": 1,
-      "category_ids": [
-        "trust_uq"
-      ]
-    },
-    {
       "id": "W4412811482",
       "title": "TransChem: A hybrid transformer and cheminformatics based framework for enhanced polymer informatics",
       "year": 2025,
@@ -1731,20 +1744,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
       "cited_by_count": 0,
       "category_ids": [
         "polymers"
-      ]
-    },
-    {
-      "id": "W4408413801",
-      "title": "Correction: Accelerating discovery of glass materials in electronic devices through topology-guided machine learning",
-      "year": 2025,
-      "venue": "Journal of Materials Chemistry A",
-      "type": "article",
-      "authors": "Ming Huang, Li Yahao, Hu Yongxing, et al.",
-      "doi_url": "https://doi.org/10.1039/d5ta90064f",
-      "openalex_url": "https://openalex.org/W4408413801",
-      "cited_by_count": 0,
-      "category_ids": [
-        "nonhot_materials"
       ]
     },
     {
@@ -2691,6 +2690,20 @@ window.MATERIALS_ML_ATLAS_DATA = {
       ]
     },
     {
+      "id": "W4401552793",
+      "title": "Mapping Biomaterial Complexity by Machine Learning",
+      "year": 2024,
+      "venue": "Tissue Engineering Part A",
+      "type": "review",
+      "authors": "Eman Ahmed, Prajakatta Mulay, César E. Ramírez, et al.",
+      "doi_url": "https://doi.org/10.1089/ten.tea.2024.0067",
+      "openalex_url": "https://openalex.org/W4401552793",
+      "cited_by_count": 16,
+      "category_ids": [
+        "biomaterials"
+      ]
+    },
+    {
       "id": "W4405233654",
       "title": "Machine learning models for predicting the compressive strength of cement-based mortar materials: Hyper tuning and optimization",
       "year": 2024,
@@ -3141,6 +3154,20 @@ window.MATERIALS_ML_ATLAS_DATA = {
       ]
     },
     {
+      "id": "W4402721704",
+      "title": "Machine Learning Approach to Investigate High Temperature Corrosion of Critical Infrastructure Materials",
+      "year": 2024,
+      "venue": "High Temperature Corrosion of Materials",
+      "type": "article",
+      "authors": "Ramkumar Muthukrishnan, Yakubu Balogun, Vinooth Rajendran, et al.",
+      "doi_url": "https://doi.org/10.1007/s11085-024-10312-4",
+      "openalex_url": "https://openalex.org/W4402721704",
+      "cited_by_count": 3,
+      "category_ids": [
+        "nonhot_materials"
+      ]
+    },
+    {
       "id": "W4403461173",
       "title": "High throughput screening of new piezoelectric materials using graph machine learning and knowledge graph approach",
       "year": 2024,
@@ -3152,20 +3179,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
       "cited_by_count": 3,
       "category_ids": [
         "literature_kg"
-      ]
-    },
-    {
-      "id": "W4399389697",
-      "title": "Supplemental Material for Uncovering the Most Robust Predictors of Problematic Pornography Use: A Large-Scale Machine Learning Study Across 16 Countries",
-      "year": 2024,
-      "venue": "Journal of Psychopathology and Clinical Science",
-      "type": "article",
-      "authors": "",
-      "doi_url": "https://doi.org/10.1037/abn0000913.supp",
-      "openalex_url": "https://openalex.org/W4399389697",
-      "cited_by_count": 0,
-      "category_ids": [
-        "trust_uq"
       ]
     },
     {
@@ -3763,20 +3776,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
       ]
     },
     {
-      "id": "W4383163643",
-      "title": "Evaluating the relevance of eggshell and glass powder for cement-based materials using machine learning and SHapley Additive exPlanations (SHAP) analysis",
-      "year": 2023,
-      "venue": "Case Studies in Construction Materials",
-      "type": "article",
-      "authors": "Muhammad Nasir Amin, Waqas Ahmad, Kaffayatullah Khan, et al.",
-      "doi_url": "https://doi.org/10.1016/j.cscm.2023.e02278",
-      "openalex_url": "https://openalex.org/W4383163643",
-      "cited_by_count": 41,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
       "id": "W4321460031",
       "title": "A new method for classifying and segmenting material microstructure based on machine learning",
       "year": 2023,
@@ -4280,6 +4279,20 @@ window.MATERIALS_ML_ATLAS_DATA = {
       "cited_by_count": 5,
       "category_ids": [
         "polymers"
+      ]
+    },
+    {
+      "id": "W4376143041",
+      "title": "Assessing Biomaterial‐Induced Stem Cell Lineage Fate by Machine Learning‐Based Artificial Intelligence (Adv. Mater. 19/2023)",
+      "year": 2023,
+      "venue": "Advanced Materials",
+      "type": "article",
+      "authors": "Yingying Zhou, Xianfeng Ping, Yusi Guo, et al.",
+      "doi_url": "https://doi.org/10.1002/adma.202370137",
+      "openalex_url": "https://openalex.org/W4376143041",
+      "cited_by_count": 4,
+      "category_ids": [
+        "biomaterials"
       ]
     },
     {
@@ -5028,6 +5041,20 @@ window.MATERIALS_ML_ATLAS_DATA = {
       ]
     },
     {
+      "id": "W4282981294",
+      "title": "A Hybrid Machine Learning Approach for Structure Stability Prediction in Molecular Co-crystal Screenings",
+      "year": 2022,
+      "venue": "Journal of Chemical Theory and Computation",
+      "type": "article",
+      "authors": "Simon Wengert, Gábor Cśanyi, Karsten Reuter, et al.",
+      "doi_url": "https://doi.org/10.1021/acs.jctc.2c00343",
+      "openalex_url": "https://openalex.org/W4282981294",
+      "cited_by_count": 37,
+      "category_ids": [
+        "trust_uq"
+      ]
+    },
+    {
       "id": "W4290802364",
       "title": "Deep neural networks for the prediction of the optical properties and the free-form inverse design of metamaterials",
       "year": 2022,
@@ -5180,6 +5207,20 @@ window.MATERIALS_ML_ATLAS_DATA = {
       "cited_by_count": 17,
       "category_ids": [
         "crystal_prediction"
+      ]
+    },
+    {
+      "id": "W4308516360",
+      "title": "Naturally-meaningful and efficient descriptors: machine learning of material properties based on robust one-shot ab initio descriptors",
+      "year": 2022,
+      "venue": "Journal of Cheminformatics",
+      "type": "article",
+      "authors": "Sherif Abdulkader Tawfik, Salvy P. Russo",
+      "doi_url": "https://doi.org/10.1186/s13321-022-00658-9",
+      "openalex_url": "https://openalex.org/W4308516360",
+      "cited_by_count": 15,
+      "category_ids": [
+        "trust_uq"
       ]
     },
     {
@@ -6087,48 +6128,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
       ]
     },
     {
-      "id": "W3217137720",
-      "title": "A Review for Machine Learning Applications in Characterizing Biomaterials and Biological Materials Properties",
-      "year": 2021,
-      "venue": "American Journal of Biomedical Science & Research",
-      "type": "review",
-      "authors": "Bo Li",
-      "doi_url": "https://doi.org/10.34297/ajbsr.2021.13.001893",
-      "openalex_url": "https://openalex.org/W3217137720",
-      "cited_by_count": 2,
-      "category_ids": [
-        "biomaterials"
-      ]
-    },
-    {
-      "id": "W3135362313",
-      "title": "Impact of biomaterials in lung tumor classification and segmentation using Machine learning healthcare",
-      "year": 2021,
-      "venue": "Materials Today Proceedings",
-      "type": "article",
-      "authors": "E. Udayakumar, Yogeshwaran Kandasamy, Ramesh Babu Chellappan, et al.",
-      "doi_url": "https://doi.org/10.1016/j.matpr.2021.01.586",
-      "openalex_url": "https://openalex.org/W3135362313",
-      "cited_by_count": 0,
-      "category_ids": [
-        "biomaterials"
-      ]
-    },
-    {
-      "id": "W3153452387",
-      "title": "Design of Ceramics with Strong Adhesion to RNAs and Peptides with an Efficient Materials Informatics Technology",
-      "year": 2021,
-      "venue": "Journal of the Society of Materials Science Japan",
-      "type": "article",
-      "authors": "Tomio Iwasaki",
-      "doi_url": "https://doi.org/10.2472/jsms.70.336",
-      "openalex_url": "https://openalex.org/W3153452387",
-      "cited_by_count": 0,
-      "category_ids": [
-        "nonhot_materials"
-      ]
-    },
-    {
       "id": "W3025104221",
       "title": "Accelerated discovery of CO2 electrocatalysts using active machine learning",
       "year": 2020,
@@ -6831,20 +6830,6 @@ window.MATERIALS_ML_ATLAS_DATA = {
       "cited_by_count": 33,
       "category_ids": [
         "microscopy_characterization"
-      ]
-    },
-    {
-      "id": "W3094270089",
-      "title": "Author Correction: Benchmarking materials property prediction methods: the Matbench test set and Automatminer reference algorithm",
-      "year": 2020,
-      "venue": "npj Computational Materials",
-      "type": "article",
-      "authors": "Alexander Dunn, Qi Wang, Alex M. Ganose, et al.",
-      "doi_url": "https://doi.org/10.1038/s41524-020-00433-0",
-      "openalex_url": "https://openalex.org/W3094270089",
-      "cited_by_count": 12,
-      "category_ids": [
-        "data_infrastructure"
       ]
     },
     {

@@ -22,7 +22,7 @@ opened directly in any modern browser — no server, no build step, no dependenc
 
 ```bash
 git clone <this-repo>
-cd ML
+cd
 # Open in your default browser:
 open index.html        # macOS
 start index.html       # Windows

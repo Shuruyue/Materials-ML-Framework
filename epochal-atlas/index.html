@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epochal Engineering Papers Atlas</title>
+    <meta
+      name="description"
+      content="A first-principles atlas for studying how landmark engineering and STEM papers changed technology. 1000+ papers across 10 breakthrough families and 10 technology corridors."
+    >
+    <meta property="og:title" content="Epochal Engineering Papers Atlas">
+    <meta property="og:description" content="A first-principles atlas for studying how landmark engineering and STEM papers changed technology.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f2ede4">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F4D1;</text></svg>">
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <a href="#anatomy" class="skip-link">Skip to content</a>
+
+    <div class="top-bar">
+      <div class="shell top-bar-inner">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language / 切換語言">
+          <span class="lang-option" data-lang="en">EN</span>
+          <span class="lang-sep">/</span>
+          <span class="lang-option" data-lang="zh">中文</span>
+        </button>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="shell site-header-inner">
+        <div class="brand-block">
+          <div class="eyebrow" data-i18n="site.eyebrow">Epochal Paper Atlas</div>
+          <h1 data-i18n="site.title">How breakthrough papers change technology</h1>
+          <p class="hero-copy" data-i18n="site.hero">
+            This atlas studies landmark engineering and STEM papers by the progress
+            mechanisms they introduced, not by discipline labels alone.
+          </p>
+        </div>
+        <div class="hero-stats" id="hero-stats"></div>
+      </div>
+      <div class="shell hero-panels" id="hero-panels">
+        <article class="formula-card">
+          <div class="card-kicker" data-i18n="card.coreThesis">Core thesis</div>
+          <p data-i18n="card.coreThesisBody">
+            Epochal papers usually do one or more irreversible things: reveal a
+            hidden variable, create a new control surface, make search tractable,
+            create infrastructure that scales, or turn a scientific possibility
+            into an engineering platform.
+          </p>
+        </article>
+        <article class="formula-card">
+          <div class="card-kicker" data-i18n="card.thisRelease">This release</div>
+          <p data-i18n="card.thisReleaseBody">
+            The current atlas targets 1000+ high-quality papers from roughly the
+            last 30 years, while leaving room for older precursors when they still
+            structure the technology landscape today.
+          </p>
+        </article>
+      </div>
+    </header>
+
+    <nav class="section-nav" aria-label="Main navigation">
+      <div class="shell nav-row">
+        <a href="#anatomy" data-i18n="nav.anatomy">Anatomy</a>
+        <a href="#families" data-i18n="nav.families">Families</a>
+        <a href="#corridors" data-i18n="nav.corridors">Corridors</a>
+        <a href="#bottlenecks" data-i18n="nav.bottlenecks">Bottlenecks</a>
+        <a href="#canonical" data-i18n="nav.canonical">Canonical</a>
+        <a href="#evidence" data-i18n="nav.evidence">Evidence</a>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <section class="section shell" id="anatomy">
+        <div class="section-heading">
+          <div class="section-kicker" data-i18n="section.anatomy.kicker">Section 1</div>
+          <h2 data-i18n="section.anatomy.title">Breakthrough anatomy</h2>
+          <p data-i18n="section.anatomy.desc">
+            A stable first-principles frame for understanding what a field-changing
+            paper actually moves.
+          </p>
+        </div>
+        <div class="card-grid anatomy-grid" id="anatomy-grid"></div>
+      </section>
+
+      <section class="section shell" id="families">
+        <div class="section-heading">
+          <div class="section-kicker" data-i18n="section.families.kicker">Section 2</div>
+          <h2 data-i18n="section.families.title">Breakthrough families</h2>
+          <p data-i18n="section.families.desc">
+            Ten recurring families of paper moves that repeatedly create large
+            downstream technological consequences.
+          </p>
+        </div>
+        <div class="card-grid family-grid" id="family-grid"></div>
+      </section>
+
+      <section class="section shell" id="corridors">
+        <div class="section-heading">
+          <div class="section-kicker" data-i18n="section.corridors.kicker">Section 3</div>
+          <h2 data-i18n="section.corridors.title">Impact corridors</h2>
+          <p data-i18n="section.corridors.desc">
+            Historical progress does not stay inside one silo. These corridors show
+            where epochal ideas repeatedly land and compound.
+          </p>
+        </div>
+        <div class="band-grid" id="band-grid"></div>
+        <div class="corridor-grid card-grid" id="corridor-grid"></div>
+      </section>
+
+      <section class="section shell" id="bottlenecks">
+        <div class="section-heading">
+          <div class="section-kicker" data-i18n="section.bottlenecks.kicker">Section 4</div>
+          <h2 data-i18n="section.bottlenecks.title">Why most papers are not epochal</h2>
+          <p data-i18n="section.bottlenecks.desc">
+            The literature over-produces novelty signals and under-produces durable
+            technological leverage. These chains explain why.
+          </p>
+        </div>
+        <div class="card-grid issue-grid" id="issue-grid"></div>
+      </section>
+
+      <section class="section shell" id="canonical">
+        <div class="section-heading">
+          <div class="section-kicker" data-i18n="section.canonical.kicker">Section 5</div>
+          <h2 data-i18n="section.canonical.title">Canonical reading paths</h2>
+          <p data-i18n="section.canonical.desc">
+            A curated layer above the full evidence base: manual anchors plus
+            corridor-specific representative papers that cover distinct mechanisms
+            of technological progress.
+          </p>
+        </div>
+
+        <div class="stats-grid" id="canonical-stats"></div>
+
+        <h3 class="subheading" data-i18n="heading.manualAnchors">Manual anchors</h3>
+        <div class="card-grid canonical-anchor-grid" id="canonical-anchor-grid"></div>
+
+        <h3 class="subheading canonical-path-heading" data-i18n="heading.corridorPaths">Corridor paths</h3>
+        <div class="card-grid canonical-path-grid" id="canonical-path-grid"></div>
+      </section>
+
+      <section class="section shell" id="evidence">
+        <div class="section-heading">
+          <div class="section-kicker" data-i18n="section.evidence.kicker">Section 6</div>
+          <h2 data-i18n="section.evidence.title">Evidence explorer</h2>
+          <p data-i18n="section.evidence.desc">
+            A filterable evidence base of landmark or structurally important papers
+            tagged by breakthrough family and technology corridor.
+          </p>
+        </div>
+
+        <div class="stats-grid" id="evidence-stats"></div>
+
+        <div class="meta-grid">
+          <div>
+            <h3 class="subheading" data-i18n="heading.familiesInEvidence">Breakthrough families in the evidence base</h3>
+            <div class="card-grid mini-grid" id="category-grid"></div>
+          </div>
+          <div>
+            <h3 class="subheading" data-i18n="heading.corridorsInEvidence">Technology corridors in the evidence base</h3>
+            <div class="card-grid mini-grid" id="evidence-corridor-grid"></div>
+          </div>
+        </div>
+
+        <div class="explorer-controls">
+          <label>
+            <span data-i18n="filter.family">Family</span>
+            <select id="family-filter" aria-label="Filter by breakthrough family"></select>
+          </label>
+          <label>
+            <span data-i18n="filter.corridor">Corridor</span>
+            <select id="corridor-filter" aria-label="Filter by technology corridor"></select>
+          </label>
+          <label>
+            <span data-i18n="filter.sort">Sort</span>
+            <select id="sort-filter" aria-label="Sort papers by">
+              <option value="score">Selection score</option>
+              <option value="citations">Citations</option>
+              <option value="year">Year</option>
+              <option value="title">Title</option>
+            </select>
+          </label>
+          <label class="search-control">
+            <span data-i18n="filter.search">Search</span>
+            <input id="source-search" type="search" data-i18n="search.placeholder" placeholder="Search title, venue, tags, or authors" aria-label="Search papers">
+          </label>
+        </div>
+
+        <p class="selection-note" id="selection-note" role="status"></p>
+        <div class="source-grid card-grid" id="sources-grid"></div>
+        <p class="empty-state" id="empty-state" role="status" hidden>No sources match the current filters.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-row">
+        <p data-i18n="footer.text">Static site. No framework. Open directly in a browser.</p>
+      </div>
+    </footer>
+
+    <script src="src/i18n.js" defer></script>
+    <script src="src/atlas-content.js" defer></script>
+    <script src="data/atlas-sources.js" defer></script>
+    <script src="data/canonical-list.js" defer></script>
+    <script src="src/atlas-app.js" defer></script>
+  </body>
+</html>

@@ -23,3 +23,10 @@ node_modules/
 # === Logs and temp files ===
 *.log
 *.tmp
+
+# === Claude Code ===
+.claude/
+.tmp_materials_ml_framework/
+
+# === Windows ===
+desktop.ini
